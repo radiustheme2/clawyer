@@ -1,0 +1,100 @@
+@mixin clearfix {
+	&::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+@mixin list_default {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+@mixin flex_center($direction:row) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: $direction;
+}
+
+@mixin button_style($color, $bg, $bg_hover) {
+	color: $color;
+	background-color: $bg;
+	border-color: $bg;
+	&:hover {
+		color: $color;
+		background-color: $bg_hover;
+		border-color: $bg_hover;
+	}
+}
+
+@mixin button_style_1($color, $bg, $color_hover, $bg_hover){
+	gap: 10px;
+	color: $color;
+	overflow: hidden;
+	border-color: $bg;
+	padding: 14px 25px;
+	position: relative;
+	border-radius: 5px;
+	align-items: center;
+	display: inline-flex;
+	background-color: $bg;
+	justify-content: center;
+	i {
+		display: inline-flex;
+		@include transition_default();
+	}
+	&:hover {
+		color: $color_hover;
+		border-color: $bg_hover;
+		background-color: $bg_hover;
+		i {
+			transform: translateX(5px)
+		}
+	}
+}
+
+@mixin button_style_2( $color, $bg, $color_hover, $bg_hover ){
+	gap: 10px;
+	z-index: 0;
+	color: $color;
+	font-size: 14px;
+	overflow: hidden;
+	font-weight: 500;
+	padding: 14px 25px;
+	position: relative;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	display: inline-flex;
+	background-color: $bg;
+	align-items: center;
+	@include transition_default();
+	i {
+		display: inline-flex;
+		@include transition_default();
+	}
+	&:after {
+		top: 0;
+		left: 0;
+		width: 0%;
+		bottom: 0;
+		content: "";
+		height: 100%;
+		z-index: -1;
+		border-radius: 5px;
+		position: absolute;
+		@include transition_default();
+		background-color: $bg_hover;
+	}
+	&:hover {
+		color: $color_hover;
+		i {
+			transform: translateX(5px)
+		}
+		&:after {
+			width: 100%;
+		}
+	}
+}

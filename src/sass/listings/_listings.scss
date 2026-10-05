@@ -1,0 +1,68 @@
+/*---------- Listing Global Css ----------*/
+.rtcl a:hover {
+	text-decoration: none;
+}
+.rtcl .dropdown-toggle:after {
+	display: none;
+}
+.rtcl article,
+.rtcl aside,
+.rtcl figcaption,
+.rtcl figure,
+.rtcl footer,
+.rtcl header,
+.rtcl hgroup,
+.rtcl main,
+.rtcl nav,
+.rtcl section {
+	display: inherit;
+}
+
+.rtcl .rtcl-listings-actions {
+	gap: 10px;
+}
+
+#rtcl-compare-btn-wrap a:hover {
+	color: $white_color;
+}
+
+#rtcl-compare-wrap .rtcl-compare-item {
+	gap: 10px;
+	align-items: center;
+	h4.rtcl-compare-item-title {
+		margin: 0;
+	}
+}
+.rtcl-compare-table .rtcl-compare-remove {
+	width: 40px;
+	height: 40px;
+	border-color: $border_color;
+}
+.rtcl-compare-table .rtcl-compare-table-label {
+	min-width: 120px;
+}
+
+.rtcl-compare-table .rtcl-price {
+	justify-content: center;
+}
+
+.rtcl-compare-table .rtcl-compare-table-title h3 a {
+	text-align: center;
+}
+
+@import "parts/_archive";
+@import "parts/_post";
+@import "parts/_paginations";
+@import "parts/_single";
+@import "parts/_listing-single-head";
+@import "parts/_gallery";
+@import "parts/_listing-single-sidebar";
+@import "parts/_review";
+@import "parts/_related-listings";
+@import "parts/_listing-map";
+@import "parts/_listing-search";
+@import "parts/_my-account";
+@import "parts/_author";
+@import "parts/_listing-form";
+@import "parts/_single-builder";
+@import "parts/_single-layout-builder";

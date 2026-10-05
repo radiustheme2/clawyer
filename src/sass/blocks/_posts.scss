@@ -1,0 +1,60 @@
+/*---------- Elementor Blog Posts ----------*/
+.rt-el-post-wrapper {
+	.clawyer-post-card {
+		.entry-title {
+			font-size: 22px;
+			line-height: 1.4;
+		}
+	}
+	.post-thumbnail-wrap .post-thumb-link,
+	.post-thumbnail-wrap .post-thumbnail,
+	.post-thumbnail-wrap {
+		width: 100%;
+		display: inline-flex;
+	}
+	&.blog-grid-2 {
+		.posted-on {
+			right: 0;
+			bottom: 0;
+			padding: 3px 12px;
+			position: absolute;
+			color: $white_color;
+			border-top-left-radius: 5px;
+			background-color: $primary_color;
+		}
+	}
+	&.blog-grid-3 {
+		.separate-meta {
+			left: 15px;
+			bottom: 15px;
+			position: absolute;
+			a {
+				border-radius: 5px;
+				color: $white_color;
+				background-color: $primary_color;
+				&:hover {
+					color: $primary_color;
+					background-color: $white_color;
+				}
+			}
+		}
+	}
+	&.blog-grid-4 {
+		.clawyer-post-card {
+			.separate-meta a {
+				border: 1px solid $primary_color;
+			}
+			@media screen and (min-width: 768px) {
+				.article-inner-wrapper {
+					display: flex;
+					.post-thumbnail-wrap {
+						border-radius: 10px 10px 0 0;
+					}
+					.post-thumbnail-wrap .post-thumbnail img {
+						border-radius: 10px 10px 0 0;
+					}
+				}
+			}
+		}
+	}
+}

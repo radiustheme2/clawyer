@@ -1,0 +1,29 @@
+/*---------- 404 Error ----------*/
+
+.error-template-content-wrapper {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.error-404 {
+	@include flex_center(column);
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.error-info {
+		gap: 15px;
+		padding-top: 40px;
+		@include flex_center(column);
+		.error-title {
+			font-size: 60px;
+			margin-bottom: 10px;
+		}
+		p {
+			font-size: 24px;
+		}
+		.button-style-2 i {
+			font-size: 22px;
+		}
+	}
+}

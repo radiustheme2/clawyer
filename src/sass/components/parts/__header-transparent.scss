@@ -1,0 +1,122 @@
+/*---------- Transparent Header ----------*/
+.has-trheader {
+	&.has-menu-shadow .site-header {
+		&::before {
+			content: "";
+			background: rgba(0, 0, 0, 0);
+			background: -webkit-linear-gradient(top, rgb(0 0 0 / 58%) 0%, rgba(0, 0, 0, 0) 100%);
+			background: linear-gradient(to bottom, rgb(0 0 0 / 68%) 0%, rgba(0, 0, 0, 0) 100%);
+			top: 0;
+			position: absolute;
+			width: 100%;
+			height: 220px;
+			z-index: -1;
+			pointer-events: none;
+		}
+	}
+	.site-header {
+		background-color: transparent;
+		.main-header-section:not(.rt-sticky) {
+			background: none !important;
+		}
+
+		.clawyer-navigation ul li:hover > a,
+		.clawyer-navigation ul li.current-menu-item > a,
+		.clawyer-navigation ul li.current-menu-ancestor > a {
+			color: $primary_color;
+		}
+
+		.clawyer-navigation ul li:hover > a svg path,
+		.clawyer-navigation ul li.current-menu-item > a svg path,
+		.clawyer-navigation ul li.current-menu-ancestor > a svg path {
+			fill: $primary_color;
+		}
+
+		.clawyer-navigation ul li a svg {
+			opacity: 0.7;
+		}
+
+		.menu-bar span {
+			background-color: $transparent_menu_color !important;
+		}
+
+		.clawyer-navigation ul > li > ul {
+			background-color: $white_color;
+		}
+
+		.clawyer-navigation ul > li > ul li > a {
+			color: $body_color;
+		}
+
+		.clawyer-navigation ul > li > ul li.current-menu-ancestor > a,
+		.clawyer-navigation ul > li > ul li.current-menu-item > a,
+		.clawyer-navigation ul > li > ul li > a:hover {
+			color: $primary_color;
+		}
+
+		.menu-icon-wrapper .has-separator li::after {
+			background: $transparent_menu_color;
+		}
+	}
+
+	.rt-sticky {
+		background: rgba($title_rgb, 0.94);
+	}
+
+	@media (max-width: 767px) {
+		.rt-site-logo {
+			display: block;
+			&.light-logo {
+				display: none;
+			}
+		}
+		.rt-mobile-logo {
+			//display: none;
+		}
+	}
+
+	&.tr-header-light {
+		.rt-site-logo {
+			&.light-logo {
+				display: block;
+			}
+			&.dark-logo {
+				display: none;
+			}
+		}
+		@media (max-width: 767px) {
+			.rt-site-logo {
+				&.light-logo {
+					display: none;
+				}
+			}
+		}
+		.site-branding a,
+		.clawyer-navigation *,
+		.clawyer-navigation ul li a {
+			color: $transparent_menu_color;
+		}
+
+		.clawyer-topbar .caret svg,
+		.main-header-section .caret svg {
+			width: 9px;
+			height: 9px;
+			fill: $white_color;
+		}
+
+		.menu-icon-wrapper svg,
+		.menu-icon-wrapper a {
+			fill: $transparent_menu_color;
+			color: $transparent_menu_color;
+		}
+
+		.menu-icon-wrapper .menu-bar .ham_burger .line {
+			stroke: $transparent_menu_color;
+		}
+	}
+	&.tr-header-dark {
+		.rt-mobile-logo {
+			display: none;
+		}
+	}
+}

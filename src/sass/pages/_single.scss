@@ -1,0 +1,258 @@
+
+/*---------- Single Post ----------*/
+.article-inner-wrapper {
+	.entry-footer {
+		.post-socials-button span {
+			font-weight: 500;
+		}
+		.post-socials-button a {
+			font-size: 16px;
+		}
+	}
+}
+.single-content .clawyer-post-card {
+	border-radius: 10px;
+	.entry-title {
+		@include font_size(40px, 1.5);
+		margin-top: -5px;
+		margin-bottom: 15px;
+	}
+
+	// Post Content
+	.entry-wrapper {
+		width: 100%;
+		display: inline-block;
+		padding: 20px 0 25px 0;
+	}
+
+	.entry-content {
+		> p + :is(h1, h2, h3) {
+			margin-top: 20px;
+		}
+	}
+
+	.separate-meta {
+		margin-bottom: 15px;
+	}
+
+	.entry-footer {
+		display: flex;
+		padding: 15px 0;
+		margin-top: 30px;
+		align-items: center;
+		justify-content: space-between;
+		border-top: 1px solid $border_color;
+		border-bottom: 1px solid $border_color;
+		.post-share,
+		.post-tags {
+			gap: 15px;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+		.tag-title {
+			font-weight: 600;
+		}
+		.post-tags span.sp {
+			display: none;
+		}
+		.post-tags span.tag-links {
+			column-gap: 10px;
+			display: inline-flex;
+		}
+		.post-tags a {
+			padding: 5px 15px;
+			border-radius: 4px;
+			display: inline-block;
+			transition: all 0.3s ease-in-out;
+			font-size: 14px;
+			line-height: 28px;
+			color: var(--rt-primary-color);
+			background-color: var(--rt-primary-dark);
+			&:hover {
+				color: $white_color;
+				background-color: $primary_color;
+			}
+		}
+	}
+	.entry-footer a {
+		&:hover {
+			color: $primary_color;
+		}
+	}
+
+	.clawyer-post-meta {
+		font-size: 15px;
+		color: $meta_color;
+		margin-bottom: 20px;
+	}
+
+}
+
+.social-share-list {
+	gap: 15px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	li {
+		a i:before {
+			font-weight: 400;
+		}
+	}
+}
+
+.clawyer-description-list {
+	gap: 12px;
+	width: 100%;
+	flex-wrap: wrap;
+	padding-left: 0;
+	list-style: none;
+	display: inline-flex;
+	li {
+		font-weight: 600;
+		position: relative;
+		padding-left: 30px;
+		&::before {
+			left: 0;
+			top: 2px;
+			width: 22px;
+			height: 22px;
+			font-size: 12px;
+			content: '\f00c';
+			font-weight: 900;
+			line-height: 20px;
+			position: absolute;
+			text-align: center;
+			color: $white_color;
+			border-radius: 50px;
+			align-items: center;
+			display: inline-flex;
+			justify-content: center;
+			background: $primary_color;
+			font-family: "Font Awesome 6 Free";
+		}
+	}
+}
+
+//Common Style for others
+.clawyer-single-default,
+.clawyer-single-4,
+.clawyer-single-3,
+.clawyer-single-2,
+.clawyer-single-1 {
+	.entry-content {
+		.rt-list-style {
+			gap: 10px;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: grid;
+			margin-top: 20px;
+			margin-bottom: 25px;
+			grid-template-columns: 40% 40%;
+			@media (max-width: 1199px) {
+				grid-template-columns: 100%;
+			}
+		}
+		.rt-list-style li {
+			gap: 5px;
+			flex-wrap: wrap;
+			position: relative;
+			display: inline-flex;
+			align-items: center;
+			padding-left: 30px;
+			&::before {
+				left: 0;
+				top: 3px;
+				content: "\e830";
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				background: $primary_color;
+				border-radius: 50px;
+				display: inline-flex;
+				align-items: center;
+				line-height: 20px;
+				font-family: "fontello";
+				color: $white_color;
+				font-size: 8px;
+				justify-content: center;
+			}
+		}
+	}
+
+	.wp-block-quote {
+		font-size: 20px;
+		font-weight: 500;
+		margin-top: 30px;
+		line-height: 30px;
+		font-style: normal;
+		position: relative;
+		margin-left: 50px;
+		margin-right: 50px;
+		color: $title_color;
+		margin-bottom: 30px;
+		padding: 38px 110px 30px 43px;
+		background-color: $primary_dark_color;
+		border-left: 8px solid $primary_color;
+		@media (max-width: 575px) {
+			padding: 30px 30px 30px 30px;
+		}
+		p {
+			margin-bottom: 5px;
+		}
+		cite, footer {
+			font-style: italic;
+			font-weight: bold;
+			color: $title_color;
+		}
+		&:before {
+			top: 50%;
+			z-index: 1;
+			right: 30px;
+			font-size: 40px;
+			content: '\e821';
+			position: absolute;
+			font-family: "rt-clawyer";
+			transform: translateY(-50%);
+			color: $primary_color;
+			@media (max-width: 575px) {
+				opacity: 0;
+			}
+		}
+	}
+}
+
+.content-top-area {
+	position: relative;
+
+	.single-top-header {
+		left: 0;
+		right: 0;
+		width: 100%;
+		bottom: 80px;
+		position: absolute;
+	}
+
+}
+
+.post-thumbnail-wrap .wp-caption-text {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	display: flex;
+	gap: 5px;
+	align-items: center;
+
+	span {
+		display: block;
+		line-height: 1;
+	}
+}
+
+@import "parts/_single-style-2";
+@import "parts/_single-style-3";
+@import "parts/_single-style-4";
+@import "parts/_author-bio";
+@import "parts/_thumbnail-pagination";

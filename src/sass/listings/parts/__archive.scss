@@ -1,0 +1,87 @@
+/*---------- Listing Archive ----------*/
+.rtcl.rtcl-page {
+	background-color: transparent;
+}
+.listing-action-bar {
+	border-radius: 6px;
+	margin-bottom: 30px;
+	border: 1px solid #E3E3E3;
+	padding: 10px 12px 10px 20px;
+}
+
+.rtcl .rtcl-listings-actions {
+	margin-bottom: 0;
+	.sort-by-text {
+		margin-right: 5px;
+		color: $black_color;
+	}
+	.rtcl-ordering {
+		position: relative;
+		select {
+			height: auto;
+			font-size: 16px;
+			padding: 13px 32px 13px 16px;
+			border-radius: 6px;
+			color: $black_color;
+			border: 1px solid #DCE0E1;
+			appearance: none;
+		}
+		&:after {
+			top: 10px;
+			right: 12px;
+			font-size: 22px;
+			content: "\f107";
+			position: absolute;
+			font-family: rt-clawyer;
+		}
+	}
+
+	.rtcl-view-switcher {
+		gap: 7px;
+		display: inline-flex;
+		flex-direction: row-reverse;
+	}
+
+	.rtcl-view-switcher>a {
+		width: 46px;
+		height: 46px;
+		font-size: 20px;
+		border-radius: 6px;
+		align-items: center;
+		display: inline-flex;
+		justify-content: center;
+		i.icon-list-line {
+			font-size: 16px;
+		}
+		&.active,
+		&:hover {
+			color: $white_color;
+			border-color: $primary_color;
+			background-color: $primary_color;
+			svg path {
+				fill: $white_color;
+			}
+		}
+
+	}
+}
+
+.rtcl .rtcl-listings-actions .rtcl-result-count {
+	font-size: 16px;
+	font-weight: 400;
+}
+.rtcl-geo-address-field i.rtcl-icon {
+	right: 15px;
+}
+
+.rtcl-ajax-filter-item .rtcl-noUiSlider .noUi-connect, .rtcl-ajax-filter-item .rtcl-noUiSlider .noUi-handle {
+	background-color: $primary_color;
+}
+
+.rtcl-widget-heading+div, .rtcl-widget-heading+ul {
+	padding: 0;
+}
+
+.rtcl-ajax-filter-item .rtcl-ajax-filter-text.rtcl-ajax-filter-text-search .rtcl-ajax-filter-search-icon {
+	display: none;
+}

@@ -1,0 +1,2566 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CLawyer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-26 10:00+0000\n"
+"PO-Revision-Date: 2026-08-26 10:00+0000\n"
+"Last-Translator: RadiusTheme\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: polib\n"
+
+#. translators: %1$s: Currency symbol, %2$s: Ticket fee amount.
+#: ../classified-listing/booking/confirmation-form.php:55
+msgid "Reservation Fee: %1$s%2$s"
+msgstr "Reservierungsgebühr: %1$s%2$s"
+
+#. translators: %s: Number of guests.
+#: ../classified-listing/booking/confirmation-form.php:57
+msgid "Guest: %s"
+msgstr "Gast: %s"
+
+#. translators: %1$s: Currency symbol, %2$s: Total fee amount.
+#: ../classified-listing/booking/confirmation-form.php:59
+msgid "Total Reservation Fee: %1$s%2$s"
+msgstr "Gesamtreservierungsgebühr: %1$s%2$s"
+
+#: ../classified-listing/booking/confirmation-form.php:62
+msgid "Personal Information"
+msgstr "Persönliche Informationen"
+
+#: ../classified-listing/booking/confirmation-form.php:65, ../comments.php:96, ../inc/Plugins/Listing_Functions.php:212
+msgid "Name"
+msgstr "Name"
+
+#: ../classified-listing/booking/confirmation-form.php:69, ../comments.php:100, ../inc/Plugins/Listing_Functions.php:213, ../inc/Api/Customizer/Sections/Contact.php:49
+msgid "Email"
+msgstr "E-Mail"
+
+#: ../classified-listing/booking/confirmation-form.php:74, ../inc/Plugins/Listing_Functions.php:168, ../inc/Api/Customizer/Sections/Contact.php:44
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../classified-listing/booking/confirmation-form.php:79
+msgid "Message"
+msgstr "Nachricht"
+
+#: ../classified-listing/booking/confirmation-form.php:80
+msgid "Write your message here"
+msgstr "Nachricht hier schreiben"
+
+#: ../classified-listing/booking/confirmation-form.php:93
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: ../classified-listing/booking/listing-booking-form.php:24
+msgid "Book Appointment"
+msgstr "Termin buchen"
+
+#: ../classified-listing/booking/listing-booking-form.php:94
+msgid "Check Available Day"
+msgstr "Verfügbaren Tag prüfen"
+
+#: ../classified-listing/booking/listing-booking-form.php:101, ../classified-listing/booking/listing-booking-form.php:39
+msgid "Number of Guest"
+msgstr "Anzahl der Gäste"
+
+#: ../classified-listing/booking/listing-booking-form.php:114, ../classified-listing/booking/listing-booking-form.php:60
+msgid "Login to Book"
+msgstr "Zum Buchen anmelden"
+
+#: ../classified-listing/booking/listing-booking-form.php:80
+msgid "Ticket not available."
+msgstr "Ticket nicht verfügbar."
+
+#: ../classified-listing/custom/listing-info.php:38, ../classified-listing/custom/listing-owner-info.php:39
+msgid "Offline"
+msgstr "Offline"
+
+#: ../classified-listing/custom/listing-info.php:40, ../classified-listing/custom/listing-owner-info.php:41
+msgid "Online"
+msgstr "Online"
+
+#: ../classified-listing/custom/listing-info.php:45, ../classified-listing/custom/listing-owner-info.php:46
+msgid "Posted By"
+msgstr "Veröffentlicht von"
+
+#: ../classified-listing/custom/listing-owner-info.php:114, ../inc/Api/Customizer/Sections/Labels.php:62, ../inc/Api/Customizer/Sections/Labels.php:63
+msgid "Follow Us On:"
+msgstr "Folgen Sie uns auf:"
+
+#: ../classified-listing/listing/author-content.php:31, ../views/author-banner.php:28
+msgid "User is offline Now"
+msgstr "Benutzer ist offline"
+
+#: ../classified-listing/listing/author-content.php:33, ../views/author-banner.php:30
+msgid "User is online now!"
+msgstr "Benutzer ist online!"
+
+#. translators: %s: User registration date (month and year).
+#: ../classified-listing/listing/author-content.php:61, ../views/author-banner.php:52
+msgid "Member Since : %s"
+msgstr "Mitglied seit: %s"
+
+#: ../classified-listing/listing/author-content.php:67
+msgid "About Me"
+msgstr "Über mich"
+
+#: ../classified-listing/listing/author-content.php:74
+msgid "Contact Info"
+msgstr "Kontaktinfo"
+
+#: ../classified-listing/listing/listing-sidebar.php:46, ../inc/Plugins/Shortcode.php:133
+msgid "Business Hours"
+msgstr "Geschäftszeiten"
+
+#: ../classified-listing/listing/meta.php:57, ../classified-listing/elementor/listing-ads/grid/style-6.php:186, ../classified-listing/elementor/listing-ads/grid/style-7.php:189, ../classified-listing/elementor/listing-ads-slider/grid/style-6.php:166, ../inc/Plugins/Listing_Functions.php:935
+msgid "by "
+msgstr "von "
+
+#. translators: %s: Number of listing views.
+#: ../classified-listing/listing/meta.php:105, ../classified-listing/elementor/listing-ads/grid/style-6.php:213, ../classified-listing/elementor/listing-ads/grid/style-7.php:217, ../classified-listing/elementor/listing-ads-slider/grid/style-6.php:193, ../inc/Plugins/Listing_Functions.php:981
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classified-listing/listing/related-listings.php:30
+msgid "See More Related Listing"
+msgstr "Mehr ähnliche Anzeigen"
+
+#. translators: %s: URL to the login/my account page.
+#: ../classified-listing/listing/user-information.php:38
+msgid "Please <a href='%s'>login</a> to view the seller information."
+msgstr "Bitte <a href='%s'>anmelden</a> für Verkäuferinfos."
+
+#: ../classified-listing/listing/user-information.php:53
+msgid "Quick Chat"
+msgstr "Schnellchat"
+
+#: ../classified-listing/listing/user-information.php:60
+msgid "Login for chat"
+msgstr "Zum Chatten anmelden"
+
+#: ../classified-listing/myaccount/form-login.php:27, ../classified-listing/myaccount/form-login.php:59
+msgid "Login"
+msgstr "Anmelden"
+
+#: ../classified-listing/myaccount/form-login.php:32
+msgid "Username or E-mail"
+msgstr "Benutzername oder E-Mail"
+
+#: ../classified-listing/myaccount/form-login.php:42, ../classified-listing/myaccount/form-login.php:113, ../classified-listing/myaccount/form-registration.php:60
+msgid "Password"
+msgstr "Passwort"
+
+#: ../classified-listing/myaccount/form-login.php:64
+msgid "Remember Me"
+msgstr "Angemeldet bleiben"
+
+#: ../classified-listing/myaccount/form-login.php:71, ../classified-listing/myaccount/form-login.php:84, ../classified-listing/myaccount/form-login.php:140, ../classified-listing/myaccount/form-registration.php:87
+msgid "Register"
+msgstr "Registrieren"
+
+#: ../classified-listing/myaccount/form-login.php:74
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+#: ../classified-listing/myaccount/form-login.php:92, ../classified-listing/myaccount/form-registration.php:39
+msgid "Username"
+msgstr "Benutzername"
+
+#: ../classified-listing/myaccount/form-login.php:98, ../classified-listing/myaccount/form-registration.php:45
+msgid "Username cannot be changed."
+msgstr "Benutzername kann nicht geändert werden."
+
+#: ../classified-listing/myaccount/form-login.php:103, ../classified-listing/myaccount/form-registration.php:50
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: ../classified-listing/myaccount/form-login.php:122, ../classified-listing/myaccount/form-registration.php:69
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: ../classified-listing/myaccount/form-login.php:129, ../classified-listing/myaccount/form-registration.php:76
+msgid "Password does not match."
+msgstr "Passwort stimmt nicht überein."
+
+#: ../classified-listing/myaccount/form-registration.php:31
+msgid "Registration"
+msgstr "Registrierung"
+
+#: ../classified-listing/myaccount/form-registration.php:88
+msgid "Already have an account? Please login"
+msgstr "Bereits ein Konto? Bitte anmelden"
+
+#: ../classified-listing/myaccount/form-registration.php:89
+msgid "Here"
+msgstr "Hier"
+
+#: ../classified-listing/custom/single/content-single-1.php:68, ../classified-listing/custom/single/content-single-2.php:72, ../inc/Plugins/Shortcode.php:178
+msgid "Overview"
+msgstr "Übersicht"
+
+#. translators: %s: Category name.
+#: ../classified-listing/custom/single/listing-single-header-1.php:55
+msgid "%s Law Attorney"
+msgstr "%s Rechtsanwalt"
+
+#: ../classified-listing/custom/single/listing-single-header-2.php:21
+msgid "Closed"
+msgstr "Geschlossen"
+
+#: ../classified-listing/custom/single/listing-single-header-2.php:19
+msgid "Open"
+msgstr "Geöffnet"
+
+#: ../classified-listing/custom/single/listing-single-header-2.php:61, ../classified-listing/listing/loop/thumbnail.php:34, ../classified-listing/elementor/listing-ads/grid/style-6.php:79, ../classified-listing/elementor/listing-ads/grid/style-7.php:84, ../classified-listing/elementor/listing-ads-slider/grid/style-6.php:65, ../inc/Plugins/Listing_Functions.php:427
+msgid "For"
+msgstr "Für"
+
+#. translators: %s: Category term
+#: ../classified-listing/elementor/listing-cat-box/grid-style-3.php:47
+msgid "View all posts in %s"
+msgstr "Alle Beiträge in %s ansehen"
+
+#. translators: %s: Number of listings.
+#: ../classified-listing/elementor/single-location/grid-style-3.php:23
+msgctxt "Number of Listing Services"
+msgid "%s listing"
+msgid_plural "%s listings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classified-listing/listing/loop/orderby.php:20
+msgid "Sort by:"
+msgstr "Sortieren nach:"
+
+#: ../classified-listing/listing/loop/orderby.php:22
+msgid "Listing order"
+msgstr "Anzeigenreihenfolge"
+
+#. translators: 1: first result 2: last result 3: total results
+#: ../classified-listing/listing/loop/result-count.php:22
+msgctxt "with first and last Result"
+msgid " %1$d&ndash;%2$d of %3$d Result"
+msgid_plural "%1$d&ndash;%2$d of %3$d Results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classified-listing/listing/loop/result-count.php:17
+msgid "%d Result"
+msgid_plural "%d Results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classified-listing/listing/loop/result-count.php:14
+msgid "Showing the single result"
+msgstr "Einzelergebnis wird angezeigt"
+
+#: ../classified-listing/elementor/listing-ads/grid/style-6.php:148, ../classified-listing/elementor/listing-ads/grid/style-7.php:142, ../classified-listing/elementor/listing-ads-slider/grid/style-6.php:117
+msgid "Quick View"
+msgstr "Schnellansicht"
+
+#. translators: 1: Comments count.
+#: ../comments.php:39
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:60
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#: ../comments.php:66
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: ../comments.php:67
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: ../comments.php:81
+msgid "Comments are closed."
+msgstr "Kommentare geschlossen."
+
+#: ../comments.php:104
+msgid "Add Comment"
+msgstr "Kommentar hinzufügen"
+
+#: ../comments.php:107
+msgid "Comment *"
+msgstr "Kommentar *"
+
+#. translators: %s: Theme location name.
+#: ../inc/template-tags.php:76
+msgid "Add %s Menu"
+msgstr "%s Menü hinzufügen"
+
+#: ../inc/template-tags.php:78
+msgid "Add a menu"
+msgstr "Menü hinzufügen"
+
+#: ../inc/template-tags.php:81, ../inc/template-tags.php:1157
+msgid "Home"
+msgstr "Startseite"
+
+#. translators: %s: Post title.
+#: ../inc/template-tags.php:275
+msgid "Continue reading %s"
+msgstr "Weiterlesen %s"
+
+#. translators: used between list items, there is a space after the comma
+#: ../inc/template-tags.php:294, ../inc/Core/Tags.php:56, ../inc/Core/Tags.php:62
+msgid ", "
+msgstr ", "
+
+#. translators: 1: Optional prefix text, 2: Author name with link
+#: ../inc/template-tags.php:354
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %s: Number of minutes.
+#: ../inc/template-tags.php:384
+msgid "%s mins read"
+msgstr "%s Min. Lesezeit"
+
+#: ../inc/template-tags.php:381
+msgid "1 min read"
+msgstr "1 Min. Lesezeit"
+
+#: ../inc/template-tags.php:379
+msgid "%s hours read"
+msgstr "%s Stunden Lesezeit"
+
+#: ../inc/template-tags.php:376
+msgid "Less than a minute"
+msgstr "Weniger als eine Minute"
+
+#: ../inc/template-tags.php:810, ../inc/Api/Customizer/Sections/Labels.php:73
+msgid "By"
+msgstr "Von"
+
+#. translators: %s: Number of comments.
+#: ../inc/template-tags.php:818
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/template-tags.php:1131, ../inc/template-tags.php:1262
+msgid "Shop"
+msgstr "Shop"
+
+#: ../inc/template-tags.php:1128
+msgid "All Stores"
+msgstr "Alle Shops"
+
+#: ../inc/template-tags.php:1125
+msgid "All Lawyers"
+msgstr "Alle Anwälte"
+
+#: ../inc/template-tags.php:1121
+msgid "All Posts"
+msgstr "Alle Beiträge"
+
+#: ../inc/template-tags.php:1114
+msgid "Search Results for : "
+msgstr "Suchergebnisse für: "
+
+#: ../inc/template-tags.php:1112
+msgid "Page not Found"
+msgstr "Seite nicht gefunden"
+
+#: ../inc/template-tags.php:1110
+msgid "Author Profile"
+msgstr "Autorenprofil"
+
+#: ../inc/template-tags.php:1258
+msgid "Blog"
+msgstr "Blog"
+
+#: ../inc/template-tags.php:1249
+msgid "Posts by: "
+msgstr "Beiträge von: "
+
+#: ../inc/template-tags.php:1194
+msgid "404"
+msgstr "404"
+
+#: ../inc/template-tags.php:1189
+msgid "Search results for"
+msgstr "Suchergebnisse für"
+
+#: ../inc/template-tags.php:1179
+msgid "Posts made in"
+msgstr "Beiträge in"
+
+#: ../inc/template-tags.php:1172
+msgid "Posts Tagged "
+msgstr "Beiträge mit Tag "
+
+#: ../inc/template-tags.php:1281
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "Startseite"
+
+#: ../inc/template-tags.php:1367
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#. translators: 1: date, 2: time
+#: ../inc/template-tags.php:1401
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: ../inc/template-tags.php:1407
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../inc/template-tags.php:1419
+msgid "Your comment is awaiting moderation."
+msgstr "Kommentar wartet auf Moderation."
+
+#: ../inc/Api/Gutenberg.php:50, ../inc/Setup/Menus.php:30
+msgid "Primary"
+msgstr "Primär"
+
+#: ../inc/Api/Gutenberg.php:55
+msgid "White"
+msgstr "Weiß"
+
+#: ../inc/Api/Gutenberg.php:60
+msgid "Black"
+msgstr "Schwarz"
+
+#: ../inc/Api/Gutenberg.php:65
+msgid "Gold"
+msgstr "Gold"
+
+#: ../inc/Api/Gutenberg.php:70
+msgid "Pink (Primary)"
+msgstr "Pink (Primär)"
+
+#: ../inc/Api/Gutenberg.php:75
+msgid "clawyer-grey"
+msgstr "clawyer-grey"
+
+#. translators: %s: Post date with link.
+#: ../inc/Core/Tags.php:40
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Veröffentlicht am %s"
+
+#. translators: %s: Post author display name with link.
+#: ../inc/Core/Tags.php:45
+msgctxt "post author"
+msgid "by %s"
+msgstr "von %s"
+
+#. translators: %1$s: Comma-separated list of post categories with links.
+#: ../inc/Core/Tags.php:59
+msgid "Posted in %1$s"
+msgstr "Veröffentlicht in %1$s"
+
+#. translators: %1$s: Comma-separated list of post tags with links.
+#: ../inc/Core/Tags.php:65
+msgid "Tagged %1$s"
+msgstr "Getaggt %1$s"
+
+#. translators: %s: post title
+#: ../inc/Core/Tags.php:71
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: ../inc/Core/Tags.php:77
+msgid "Edit %s"
+msgstr "%s bearbeiten"
+
+#: ../inc/Custom/Extras.php:102
+msgid "Make as Mega Menu"
+msgstr "Als Mega-Menü"
+
+#: ../inc/Custom/Extras.php:104
+msgid "Choose Mega Menu"
+msgstr "Mega-Menü wählen"
+
+#. translators: %1$s: Column count number, %2$s: Column label.
+#: ../inc/Custom/Extras.php:119
+msgid "Mega menu - %1$s Col %2$s"
+msgstr "Mega-Menü - %1$s Spalte %2$s"
+
+#: ../inc/Custom/Extras.php:131
+msgid "Query String"
+msgstr "Abfragezeichenfolge"
+
+#: ../inc/Custom/Extras.php:184
+msgid "Search here..."
+msgstr "Hier suchen..."
+
+#: ../inc/Custom/Extras.php:187
+msgid "Search"
+msgstr "Suchen"
+
+#: ../inc/Helpers/Fns.php:77, ../inc/Helpers/Fns.php:402
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../inc/Helpers/Fns.php:81
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../inc/Helpers/Fns.php:85, ../inc/Helpers/Fns.php:404
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: ../inc/Helpers/Fns.php:89
+msgid "Youtube"
+msgstr "Youtube"
+
+#: ../inc/Helpers/Fns.php:93, ../inc/Helpers/Fns.php:405
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../inc/Helpers/Fns.php:97
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../inc/Helpers/Fns.php:101
+msgid "Skype"
+msgstr "Skype"
+
+#: ../inc/Helpers/Fns.php:115
+msgid "Choose Sidebar"
+msgstr "Seitenleiste wählen"
+
+#: ../inc/Helpers/Fns.php:139
+msgid "Style"
+msgstr "Stil"
+
+#: ../inc/Helpers/Fns.php:273
+msgid "Default Image Size"
+msgstr "Standard-Bildgröße"
+
+#: ../inc/Helpers/Fns.php:277
+msgid "Full Size"
+msgstr "Volle Größe"
+
+#: ../inc/Helpers/Fns.php:345, ../inc/Api/Customizer/Sections/Blog.php:49, ../inc/Api/Customizer/Sections/Blog.php:61, ../inc/Api/Customizer/Sections/ListingArchive.php:57
+msgid "Default From Theme"
+msgstr "Standard vom Theme"
+
+#: ../inc/Helpers/Fns.php:346
+msgid "Border Style"
+msgstr "Rahmenstil"
+
+#: ../inc/Helpers/Fns.php:347
+msgid "Before Dash ( — )"
+msgstr "Vor Gedankenstrich ( — )"
+
+#: ../inc/Helpers/Fns.php:348
+msgid "Before Dash with BG ( — )"
+msgstr "Vor Gedankenstrich mit HG ( — )"
+
+#: ../inc/Helpers/Fns.php:349
+msgid "After Pipe ( | )"
+msgstr "Nach Pipe ( | )"
+
+#: ../inc/Helpers/Fns.php:367
+msgid "Style 1 (Default From Theme)"
+msgstr "Stil 1 (Standard vom Theme)"
+
+#: ../inc/Helpers/Fns.php:368
+msgid "Style 2 (Full-width Thumbnail)"
+msgstr "Stil 2 (Vorschaubild volle Breite)"
+
+#: ../inc/Helpers/Fns.php:369
+msgid "Style 3 (Transparent Menu)"
+msgstr "Stil 3 (Transparentes Menü)"
+
+#: ../inc/Helpers/Fns.php:370
+msgid "Style 4 (Content over on Thumb)"
+msgstr "Stil 4 (Inhalt über Vorschaubild)"
+
+#: ../inc/Helpers/Fns.php:388
+msgid "Author"
+msgstr "Autor"
+
+#: ../inc/Helpers/Fns.php:389
+msgid "Date"
+msgstr "Datum"
+
+#: ../inc/Helpers/Fns.php:390
+msgid "Category"
+msgstr "Kategorie"
+
+#: ../inc/Helpers/Fns.php:391
+msgid "Tag"
+msgstr "Tag"
+
+#: ../inc/Helpers/Fns.php:392
+msgid "Comment"
+msgstr "Kommentar"
+
+#: ../inc/Helpers/Fns.php:403
+msgid "Twitter X"
+msgstr "Twitter X"
+
+#: ../inc/Helpers/Fns.php:449
+msgid "Listing Map Sidebar"
+msgstr "Anzeigenkarte Seitenleiste"
+
+#: ../inc/Helpers/Fns.php:455, ../inc/Traits/LayoutControlsTraits.php:60, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:48
+msgid "Main Sidebar"
+msgstr "Haupt-Seitenleiste"
+
+#: ../inc/Helpers/Fns.php:460, ../inc/Traits/LayoutControlsTraits.php:61, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:49
+msgid "Single Sidebar"
+msgstr "Einzel-Seitenleiste"
+
+#: ../inc/Helpers/Fns.php:471
+msgid "WooCommerce Archive Sidebar"
+msgstr "WooCommerce Archive Sidebar"
+
+#: ../inc/Helpers/Fns.php:476
+msgid "WooCommerce Single Sidebar"
+msgstr "WooCommerce Single Sidebar"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:331
+msgid "Install Required Plugins"
+msgstr "Erforderliche Plugins installieren"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:332
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#. translators: %s: plugin name.
+#: ../inc/Lib/class-tgm-plugin-activation.php:334
+msgid "Installing Plugin: %s"
+msgstr "Plugin wird installiert: %s"
+
+#. translators: %s: plugin name.
+#: ../inc/Lib/class-tgm-plugin-activation.php:336
+msgid "Updating Plugin: %s"
+msgstr "Plugin wird aktualisiert: %s"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:337
+msgid "Something went wrong with the plugin API."
+msgstr "Fehler mit der Plugin-API."
+
+#. translators: 1: plugin name(s).
+#: ../inc/Lib/class-tgm-plugin-activation.php:339
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: ../inc/Lib/class-tgm-plugin-activation.php:345
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: ../inc/Lib/class-tgm-plugin-activation.php:351
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: ../inc/Lib/class-tgm-plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: ../inc/Lib/class-tgm-plugin-activation.php:363
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: ../inc/Lib/class-tgm-plugin-activation.php:369
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:374
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:379
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:384
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:389
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zum Plugin-Installer"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:390, ../inc/Lib/class-tgm-plugin-activation.php:831, ../inc/Lib/class-tgm-plugin-activation.php:2537, ../inc/Lib/class-tgm-plugin-activation.php:3584
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:391, ../inc/Lib/class-tgm-plugin-activation.php:3163
+msgid "Plugin activated successfully."
+msgstr "Plugin erfolgreich aktiviert."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:392, ../inc/Lib/class-tgm-plugin-activation.php:2956
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: ../inc/Lib/class-tgm-plugin-activation.php:394
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Keine Aktion. Plugin %1$s war bereits aktiv."
+
+#. translators: 1: plugin name.
+#: ../inc/Lib/class-tgm-plugin-activation.php:396
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin nicht aktiviert. Höhere Version von %s nötig."
+
+#. translators: 1: dashboard link.
+#: ../inc/Lib/class-tgm-plugin-activation.php:398
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins installiert und aktiviert. %1$s"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:399
+msgid "Dismiss this notice"
+msgstr "Hinweis ausblenden"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:400
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Es gibt erforderliche oder empfohlene Plugins."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:401
+msgid "Please contact the administrator of this site for help."
+msgstr "Bitte kontaktieren Sie den Administrator."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:526
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Plugin muss aktualisiert werden."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:527
+msgid "Update Required"
+msgstr "Update erforderlich"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:941
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Plugin-Paket enthält mehrere Dateien, aber nicht in einem Ordner."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:941, ../inc/Lib/class-tgm-plugin-activation.php:938
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Bitte kontaktieren Sie den Plugin-Anbieter."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:938
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Plugin-Paket enthält keinen Ordner mit dem gewünschten Slug."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:1125, ../inc/Lib/class-tgm-plugin-activation.php:2952
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#. translators: %s: version number
+#: ../inc/Lib/class-tgm-plugin-activation.php:1986
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2277
+msgid "Required"
+msgstr "Erforderlich"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2280
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2296
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2299
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2302
+msgid "Pre-Packaged"
+msgstr "Vorverpackt"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2319
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2325
+msgid "Active"
+msgstr "Aktiv"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2323
+msgid "Installed But Not Activated"
+msgstr "Installiert aber nicht aktiviert"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2337
+msgid "Update recommended"
+msgstr "Update empfohlen"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2334
+msgid "Requires Update"
+msgstr "Update erforderlich"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2331
+msgid "Required Update not Available"
+msgstr "Erforderliches Update nicht verfügbar"
+
+#. translators: 1: install status, 2: update status
+#: ../inc/Lib/class-tgm-plugin-activation.php:2346
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: ../inc/Lib/class-tgm-plugin-activation.php:2392
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/Lib/class-tgm-plugin-activation.php:2396
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/Lib/class-tgm-plugin-activation.php:2400
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/Lib/class-tgm-plugin-activation.php:2404
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2486
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unbekannt"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2494
+msgid "Installed version:"
+msgstr "Installierte Version:"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2502
+msgid "Minimum required version:"
+msgstr "Mindestversion:"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2514
+msgid "Available version:"
+msgstr "Verfügbare Version:"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2537
+msgid "No plugins to install, update or activate."
+msgstr "Keine Plugins zum Installieren, Aktualisieren oder Aktivieren."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2551
+msgid "Plugin"
+msgstr "Plugin"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2552
+msgid "Source"
+msgstr "Quelle"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2553
+msgid "Type"
+msgstr "Typ"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2557
+msgid "Version"
+msgstr "Version"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2558
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/Lib/class-tgm-plugin-activation.php:2612
+msgid "Update %2$s"
+msgstr "Aktualisieren %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/Lib/class-tgm-plugin-activation.php:2618
+msgid "Activate %2$s"
+msgstr "Aktivieren %2$s"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2607
+msgid "Install %2$s"
+msgstr "Installieren %2$s"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2688
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade-Nachricht vom Plugin-Autor:"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2721
+msgid "Install"
+msgstr "Installieren"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2727
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2730
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2763
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Keine Plugins zum Update ausgewählt."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2761
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Keine Plugins zur Installation ausgewählt."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2806
+msgid "No plugins are available to be updated at this time."
+msgstr "Keine Plugins zum Update verfügbar."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2804
+msgid "No plugins are available to be installed at this time."
+msgstr "Keine Plugins zur Installation verfügbar."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2912
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Keine Plugins zur Aktivierung ausgewählt."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:2938
+msgid "No plugins are available to be activated at this time."
+msgstr "Keine Plugins zur Aktivierung verfügbar."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:3162
+msgid "Plugin activation failed."
+msgstr "Plugin-Aktivierung fehlgeschlagen."
+
+#. translators: 1: plugin name, 2: error message.
+#: ../inc/Lib/class-tgm-plugin-activation.php:3505
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Fehler bei Installation von %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: ../inc/Lib/class-tgm-plugin-activation.php:3507
+msgid "The installation of %1$s failed."
+msgstr "Installation von %1$s fehlgeschlagen."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:3519
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Installation wird gestartet. Bitte Geduld."
+
+#. translators: 1: plugin name.
+#: ../inc/Lib/class-tgm-plugin-activation.php:3521
+msgid "%1$s installed successfully."
+msgstr "%1$s erfolgreich installiert."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:3522
+msgid "All installations have been completed."
+msgstr "Alle Installationen abgeschlossen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../inc/Lib/class-tgm-plugin-activation.php:3524
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s wird installiert (%2$d/%3$d)"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:3511
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Installation und Aktivierung werden gestartet. Bitte Geduld."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:3513
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:3514
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen abgeschlossen."
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:3516
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s wird installiert und aktiviert (%2$d/%3$d)"
+
+#: ../inc/Lib/class-tgm-plugin-activation.php:3502
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s wird aktualisiert (%2$d/%3$d)"
+
+#: ../inc/Modules/TGMConfig.php:36
+msgid "Classified Listing"
+msgstr "Kleinanzeigen"
+
+#: ../inc/Modules/TGMConfig.php:46
+msgid "Elementor Page Builder"
+msgstr "Elementor Page Builder"
+
+#: ../inc/Modules/TGMConfig.php:51
+msgid "Fluent Forms"
+msgstr "Fluent Forms"
+
+#: ../inc/Modules/TGMConfig.php:56
+msgid "Review Schema"
+msgstr "Bewertungsschema"
+
+#: ../inc/Plugins/Listing_Functions.php:163
+msgid "Message to User"
+msgstr "Nachricht an Benutzer"
+
+#: ../inc/Plugins/Listing_Functions.php:167, ../inc/Api/Customizer/Sections/Contact.php:59
+msgid "Address"
+msgstr "Adresse"
+
+#: ../inc/Plugins/Listing_Functions.php:169, ../inc/Plugins/Listing_Functions.php:176
+msgid "Review Rating"
+msgstr "Bewertung"
+
+#: ../inc/Plugins/Listing_Functions.php:170, ../inc/Plugins/Listing_Functions.php:177
+msgid "Open/Close Status"
+msgstr "Öffnungs-/Schließstatus"
+
+#: ../inc/Plugins/Listing_Functions.php:171
+msgid "Booking Button"
+msgstr "Buchungs-Button"
+
+#: ../inc/Plugins/Listing_Functions.php:185, ../inc/Plugins/Listing_Functions.php:195
+msgid "Compare"
+msgstr "Vergleichen"
+
+#: ../inc/Plugins/Listing_Functions.php:187, ../inc/Plugins/Listing_Functions.php:197
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: ../inc/Plugins/Listing_Functions.php:205
+msgid "Add a Review"
+msgstr "Bewertung hinzufügen"
+
+#. translators: %s: User/author name.
+#: ../inc/Plugins/Listing_Functions.php:207
+msgid "Leave feedback about this to %s"
+msgstr "Feedback hierzu an %s"
+
+#: ../inc/Plugins/Listing_Functions.php:208
+msgid "Cancel Reply"
+msgstr "Antwort abbrechen"
+
+#: ../inc/Plugins/Listing_Functions.php:209
+msgid "Submit Your Review"
+msgstr "Bewertung absenden"
+
+#: ../inc/Plugins/Listing_Functions.php:214, ../inc/Api/Customizer/Sections/Contact.php:54
+msgid "Website"
+msgstr "Webseite"
+
+#: ../inc/Plugins/Listing_Functions.php:215
+msgid "Title"
+msgstr "Titel"
+
+#: ../inc/Plugins/Listing_Functions.php:216
+msgid "Write your review"
+msgstr "Bewertung schreiben"
+
+#: ../inc/Plugins/Listing_Functions.php:223
+msgid "Map Center Point Settings"
+msgstr "Karten-Mittelpunkt Einstellungen"
+
+#: ../inc/Plugins/Listing_Functions.php:228
+msgid "Center Point Latitude"
+msgstr "Mittelpunkt Breitengrad"
+
+#: ../inc/Plugins/Listing_Functions.php:232
+msgid "Specify the latitude (north-south position) of the map center. Use decimal format. Example: 23.8103"
+msgstr "Breitengrad des Kartenmittelpunkts angeben. Dezimalformat. Beispiel: 23.8103"
+
+#: ../inc/Plugins/Listing_Functions.php:236
+msgid "Center Point Longitude"
+msgstr "Mittelpunkt Längengrad"
+
+#: ../inc/Plugins/Listing_Functions.php:240
+msgid "Specify the longitude (east-west position) of the map center. Use decimal format. Example: 90.4125"
+msgstr "Längengrad des Kartenmittelpunkts angeben. Dezimalformat. Beispiel: 90.4125"
+
+#: ../inc/Plugins/Listing_Functions.php:243
+msgid "Map Zoom Level"
+msgstr "Karten-Zoomstufe"
+
+#. translators: %s: Rating count.
+#. translators: %s: Rating count number.
+#: ../inc/Plugins/Listing_Functions.php:323, ../inc/Plugins/Listing_Functions.php:344
+msgid "(<span>%s</span>)"
+msgstr "(<span>%s</span>)"
+
+#. translators: %1\$s: Average rating, %2\$s: Rating count.
+#: ../inc/Plugins/Listing_Functions.php:363
+msgid "%1\$s <span>(%2\$s)</span>"
+msgstr "%1\$s <span>(%2\$s)</span>"
+
+#: ../inc/Plugins/Listing_Functions.php:470
+msgid "All Photos"
+msgstr "Alle Fotos"
+
+#: ../inc/Plugins/Listing_Functions.php:755
+msgid "Favourites"
+msgstr "Favoriten"
+
+#: ../inc/Plugins/Listing_Functions.php:785, ../inc/Plugins/Listing_Functions.php:777
+msgid "Add to compare list"
+msgstr "Zur Vergleichsliste hinzufügen"
+
+#: ../inc/Plugins/Listing_Functions.php:801
+msgid "Quick view"
+msgstr "Schnellansicht"
+
+#: ../inc/Plugins/Listing_Functions.php:1027
+msgid "Report Abuse"
+msgstr "Missbrauch melden"
+
+#: ../inc/Plugins/Listing_Functions.php:1034
+msgid "Your Complaint"
+msgstr "Ihre Beschwerde"
+
+#: ../inc/Plugins/Listing_Functions.php:1038
+msgid "Message... "
+msgstr "Nachricht... "
+
+#: ../inc/Plugins/Listing_Functions.php:1044
+msgid "Submit"
+msgstr "Absenden"
+
+#: ../inc/Plugins/Listing_Functions.php:1067
+msgid "Share This Link Via"
+msgstr "Diesen Link teilen über"
+
+#: ../inc/Plugins/Listing_Functions.php:1188
+msgid "Category Image"
+msgstr "Kategoriebild"
+
+#: ../inc/Plugins/Listing_Functions.php:1240, ../inc/Plugins/Listing_Functions.php:1248
+msgid "Open Now"
+msgstr "Jetzt geöffnet"
+
+#: ../inc/Plugins/Listing_Functions.php:1241
+msgid "Close Now"
+msgstr "Jetzt schließen"
+
+#: ../inc/Plugins/Listing_Functions.php:1250
+msgid "Closed Now"
+msgstr "Jetzt geschlossen"
+
+#: ../inc/Plugins/Listing_Functions.php:1464
+msgid " Review"
+msgstr " Bewertung"
+
+#: ../inc/Plugins/Listing_Functions.php:1462
+msgid " Reviews"
+msgstr " Bewertungen"
+
+#: ../inc/Traits/LayoutControlsTraits.php:18
+msgid "Left Sidebar"
+msgstr "Linke Seitenleiste"
+
+#: ../inc/Traits/LayoutControlsTraits.php:19
+msgid "Right Sidebar"
+msgstr "Rechte Seitenleiste"
+
+#: ../inc/Traits/LayoutControlsTraits.php:36, ../inc/Api/Customizer/Sections/Footer.php:45, ../inc/Api/Customizer/Sections/Header.php:46, ../inc/Api/Customizer/Sections/ListingArchive.php:46, ../inc/Api/Customizer/Sections/ListingSingle.php:46
+msgid "Choose Layout"
+msgstr "Layout wählen"
+
+#: ../inc/Traits/LayoutControlsTraits.php:45, ../inc/Api/Customizer/Sections/Footer.php:56, ../inc/Api/Customizer/Sections/Header.php:70
+msgid "Full Width"
+msgstr "Volle Breite"
+
+#: ../inc/Traits/LayoutControlsTraits.php:56, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:44
+msgid "Choose a Sidebar"
+msgstr "Seitenleiste wählen"
+
+#: ../inc/Traits/LayoutControlsTraits.php:59, ../inc/Traits/LayoutControlsTraits.php:80, ../inc/Traits/LayoutControlsTraits.php:92, ../inc/Traits/LayoutControlsTraits.php:108, ../inc/Traits/LayoutControlsTraits.php:119, ../inc/Traits/LayoutControlsTraits.php:130, ../inc/Traits/LayoutControlsTraits.php:153, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:47, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:67, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:79, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:95, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:106, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:117, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:140
+msgid "--Default--"
+msgstr "--Standard--"
+
+#: ../inc/Traits/LayoutControlsTraits.php:62, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:50
+msgid "footer Sidebar"
+msgstr "Fußzeilen-Seitenleiste"
+
+#: ../inc/Traits/LayoutControlsTraits.php:63, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:51
+msgid "Listing Archive Sidebar"
+msgstr "Anzeigen-Archiv Seitenleiste"
+
+#: ../inc/Traits/LayoutControlsTraits.php:64, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:52
+msgid "Listing Single Sidebar"
+msgstr "Einzelanzeige Seitenleiste"
+
+#: ../inc/Traits/LayoutControlsTraits.php:65, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:53
+msgid "Listing Map Sidenar"
+msgstr "Anzeigenkarte Seitenleiste"
+
+#: ../inc/Traits/LayoutControlsTraits.php:72, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:59
+msgid "Header Settings"
+msgstr "Kopfzeilen-Einstellungen"
+
+#: ../inc/Traits/LayoutControlsTraits.php:78, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:65
+msgid "Header Layout"
+msgstr "Kopfzeilen-Layout"
+
+#: ../inc/Traits/LayoutControlsTraits.php:81, ../inc/Traits/LayoutControlsTraits.php:120, ../inc/Traits/LayoutControlsTraits.php:154, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:68, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:107, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:141, ../inc/Api/Customizer/Sections/ListingSingle.php:50
+msgid "Layout 1"
+msgstr "Layout 1"
+
+#: ../inc/Traits/LayoutControlsTraits.php:82, ../inc/Traits/LayoutControlsTraits.php:121, ../inc/Traits/LayoutControlsTraits.php:155, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:69, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:108, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:142, ../inc/Api/Customizer/Sections/ListingSingle.php:51
+msgid "Layout 2"
+msgstr "Layout 2"
+
+#: ../inc/Traits/LayoutControlsTraits.php:83, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:70
+msgid "Layout 3"
+msgstr "Layout 3"
+
+#: ../inc/Traits/LayoutControlsTraits.php:89, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:76
+msgid "Top Bar"
+msgstr "Obere Leiste"
+
+#: ../inc/Traits/LayoutControlsTraits.php:93, ../inc/Traits/LayoutControlsTraits.php:109, ../inc/Traits/LayoutControlsTraits.php:131, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:80, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:96, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:118
+msgid "On"
+msgstr "Ein"
+
+#: ../inc/Traits/LayoutControlsTraits.php:94, ../inc/Traits/LayoutControlsTraits.php:110, ../inc/Traits/LayoutControlsTraits.php:132, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:81, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:97, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:119
+msgid "Off"
+msgstr "Aus"
+
+#: ../inc/Traits/LayoutControlsTraits.php:100, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:87
+msgid "Banner Settings"
+msgstr "Banner-Einstellungen"
+
+#: ../inc/Traits/LayoutControlsTraits.php:106, ../inc/Api/Customizer/Sections/Banner.php:46, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:93
+msgid "Banner Visibility"
+msgstr "Banner-Sichtbarkeit"
+
+#: ../inc/Traits/LayoutControlsTraits.php:117, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:104
+msgid "Banner Layout"
+msgstr "Banner-Layout"
+
+#: ../inc/Traits/LayoutControlsTraits.php:128, ../inc/Api/Customizer/Sections/Banner.php:124, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:115
+msgid "Banner Content (Breadcrumb) Visibility"
+msgstr "Banner-Inhalt (Brotkrümel) Sichtbarkeit"
+
+#: ../inc/Traits/LayoutControlsTraits.php:138, ../inc/Traits/LayoutControlsTraits.php:140, ../inc/Api/Customizer/Sections/Banner.php:60, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:125, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:127
+msgid "Banner Image"
+msgstr "Banner-Bild"
+
+#: ../inc/Traits/LayoutControlsTraits.php:139, ../inc/Api/Customizer/Sections/Banner.php:61, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:126
+msgid "Upload Banner Image"
+msgstr "Banner-Bild hochladen"
+
+#: ../inc/Traits/LayoutControlsTraits.php:145, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:132
+msgid "Footer Settings"
+msgstr "Fußzeilen-Einstellungen"
+
+#: ../inc/Traits/LayoutControlsTraits.php:151, ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:138
+msgid "Footer Layout"
+msgstr "Fußzeilen-Layout"
+
+#: ../inc/Traits/SingletonTraits.php:39, ../inc/Traits/SingletonTraits.php:47
+msgid "Cheatin&#8217; huh?"
+msgstr "Betrugsversuch?"
+
+#: ../inc/Api/Customizer/Pannels.php:40
+msgid "Header - Topbar - Menu"
+msgstr "Kopfzeile - Topbar - Menü"
+
+#: ../inc/Api/Customizer/Pannels.php:41
+msgid "Clawyer Header"
+msgstr "Clawyer Kopfzeile"
+
+#: ../inc/Api/Customizer/Pannels.php:46
+msgid "Typography"
+msgstr "Typografie"
+
+#: ../inc/Api/Customizer/Pannels.php:47
+msgid "Clawyer Typography"
+msgstr "Clawyer Typografie"
+
+#: ../inc/Api/Customizer/Pannels.php:52
+msgid "Colors"
+msgstr "Farben"
+
+#: ../inc/Api/Customizer/Pannels.php:53
+msgid "Clawyer Color Settings"
+msgstr "Clawyer Farbeinstellungen"
+
+#: ../inc/Api/Customizer/Pannels.php:58
+msgid "Layout Settings"
+msgstr "Layout-Einstellungen"
+
+#: ../inc/Api/Customizer/Pannels.php:59
+msgid "Clawyer Layout Settings"
+msgstr "Clawyer Layout-Einstellungen"
+
+#: ../inc/Api/Customizer/Pannels.php:64
+msgid "Listing Settings"
+msgstr "Anzeigen-Einstellungen"
+
+#: ../inc/Api/Customizer/Pannels.php:65
+msgid "Clawyer Listing Settings"
+msgstr "Clawyer Anzeigen-Einstellungen"
+
+#: ../inc/Api/Customizer/Pannels.php:70
+msgid "Contact & Socials"
+msgstr "Kontakt & Social"
+
+#: ../inc/Api/Customizer/Pannels.php:71
+msgid "Clawyer Contact & Socials"
+msgstr "Clawyer Kontakt & Social"
+
+#: ../inc/Lib/updater/lc-helper.php:48, ../inc/Lib/updater/lc-helper.php:49, ../inc/Lib/updater/lc-helper.php:75, ../inc/Lib/updater/theme-updater.php:35
+msgid "Theme License"
+msgstr "Theme-Lizenz"
+
+#: ../inc/Lib/updater/lc-helper.php:78, ../inc/Lib/updater/theme-updater-admin.php:159
+msgid "Activated"
+msgstr "Aktiviert"
+
+#: ../inc/Lib/updater/lc-helper.php:78
+msgid "Not activated"
+msgstr "Nicht aktiviert"
+
+#. translators: %s: theme name
+#: ../inc/Lib/updater/lc-helper.php:91
+msgid "Activate %s to unlock one-click demo import, automatic updates, bundled plugin installation, and premium support."
+msgstr "Aktivieren Sie %s um Ein-Klick-Demo-Import, automatische Updates, gebündelte Plugin-Installation und Premium-Support freizuschalten."
+
+#: ../inc/Lib/updater/lc-helper.php:113
+msgid "Classified Ads WordPress Theme"
+msgstr "WordPress-Theme für Kleinanzeigen"
+
+#: ../inc/Lib/updater/lc-helper.php:113
+msgid "by RadiusTheme"
+msgstr "von RadiusTheme"
+
+#: ../inc/Lib/updater/lc-helper.php:133
+msgid "Where's my license key?"
+msgstr "Wo ist mein Lizenzschlüssel?"
+
+#: ../inc/Lib/updater/lc-helper.php:135
+msgid "Log in to your account at RadiusTheme.com."
+msgstr "Bei RadiusTheme.com anmelden."
+
+#: ../inc/Lib/updater/lc-helper.php:136
+msgid "Go to Downloads, then License keys."
+msgstr "Zu Downloads, dann Lizenzschlüssel."
+
+#: ../inc/Lib/updater/lc-helper.php:137
+msgid "Copy the key for %s."
+msgstr "Schlüssel für %s kopieren."
+
+#: ../inc/Lib/updater/lc-helper.php:139
+msgid "Open RadiusTheme account"
+msgstr "RadiusTheme-Konto eröffnen"
+
+#: ../inc/Lib/updater/lc-helper.php:144
+msgid "Need a hand?"
+msgstr "Brauchen Sie Hilfe?"
+
+#: ../inc/Lib/updater/lc-helper.php:145
+msgid "Activation issues are usually a mistyped code or a license already in use on another domain."
+msgstr "Aktivierungsprobleme sind meist ein falsch eingegebener Code oder eine bereits verwendete Lizenz."
+
+#: ../inc/Lib/updater/lc-helper.php:148
+msgid "Contact Support Center"
+msgstr "Support kontaktieren"
+
+#: ../inc/Lib/updater/lc-utility.php:546
+msgid "Please activate your theme license to install demo data."
+msgstr "Theme-Lizenz für Demodaten aktivieren."
+
+#: ../inc/Lib/updater/lc-utility.php:559, ../inc/Lib/updater/lc-utility.php:576
+msgid "Please activate your theme license to use this plugin."
+msgstr "Theme-Lizenz für dieses Plugin aktivieren."
+
+#: ../inc/Lib/updater/theme-updater-admin.php:152
+msgid "Enter your theme license key"
+msgstr "Theme-Lizenzschlüssel eingeben"
+
+#: ../inc/Lib/updater/theme-updater-admin.php:157
+msgid "License Status"
+msgstr "Lizenzstatus"
+
+#: ../inc/Lib/updater/theme-updater-admin.php:161
+msgid "Not Activated"
+msgstr "Nicht aktiviert"
+
+#: ../inc/Lib/updater/theme-updater-admin.php:181
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: ../inc/Lib/updater/theme-updater-admin.php:500
+msgid "activate your theme license"
+msgstr "aktivieren Sie Ihre Theme-Lizenz"
+
+#: ../inc/Lib/updater/theme-updater-admin.php:503
+msgid "Please %s to get update, full functionalities and customer support."
+msgstr "Bitte %s für Updates und Support."
+
+#: ../inc/Lib/updater/theme-updater.php:36
+msgid "Enter your theme license key."
+msgstr "Theme-Lizenzschlüssel eingeben."
+
+#: ../inc/Lib/updater/theme-updater.php:37
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: ../inc/Lib/updater/theme-updater.php:38
+msgid "License Action"
+msgstr "Lizenzaktion"
+
+#: ../inc/Lib/updater/theme-updater.php:39
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: ../inc/Lib/updater/theme-updater.php:40
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: ../inc/Lib/updater/theme-updater.php:41, ../inc/Lib/updater/theme-updater.php:56
+msgid "License status is unknown."
+msgstr "Lizenzstatus ist unbekannt."
+
+#: ../inc/Lib/updater/theme-updater.php:42
+msgid "Renew?"
+msgstr "Erneuern?"
+
+#: ../inc/Lib/updater/theme-updater.php:43
+msgid "unlimited"
+msgstr "unbegrenzt"
+
+#: ../inc/Lib/updater/theme-updater.php:44
+msgid "License key is active."
+msgstr "Lizenzschlüssel ist aktiv."
+
+#. translators: %s: expiration date
+#: ../inc/Lib/updater/theme-updater.php:46
+msgid "Expires %s."
+msgstr "Läuft ab am %s."
+
+#. translators: 1: number of active sites, 2: total allowed sites
+#: ../inc/Lib/updater/theme-updater.php:48
+msgid "You have %1$s / %2$s sites activated."
+msgstr "Sie haben %1$s / %2$s Websites aktiviert."
+
+#. translators: %s: expiration date
+#: ../inc/Lib/updater/theme-updater.php:50
+msgid "License key expired %s."
+msgstr "Lizenzschlüssel abgelaufen am %s."
+
+#: ../inc/Lib/updater/theme-updater.php:51
+msgid "License key has expired."
+msgstr "Lizenzschlüssel ist abgelaufen."
+
+#: ../inc/Lib/updater/theme-updater.php:52
+msgid "License keys do not match."
+msgstr "Lizenzschlüssel stimmen nicht überein."
+
+#: ../inc/Lib/updater/theme-updater.php:53
+msgid "License is inactive."
+msgstr "Lizenz ist inaktiv."
+
+#: ../inc/Lib/updater/theme-updater.php:54
+msgid "License key is disabled."
+msgstr "Lizenzschlüssel ist deaktiviert."
+
+#: ../inc/Lib/updater/theme-updater.php:55
+msgid "Site is inactive."
+msgstr "Website ist inaktiv."
+
+#: ../inc/Lib/updater/theme-updater.php:57
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr "Theme-Update verliert Anpassungen. 'Abbrechen' oder 'OK' zum Aktualisieren."
+
+#. translators: 1: Theme name, 2: Version, 3: Changelog URL, 4: Changelog title, 5: Update URL, 6: Update onclick
+#: ../inc/Lib/updater/theme-updater.php:59
+msgid "<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" title=\"%4$s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>."
+msgstr ""
+
+#: ../inc/Api/Customizer/Sections/Banner.php:28
+msgid "Banner - Breadcrumb"
+msgstr "Banner - Brotkrümel"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:29
+msgid "Clawyer Banner Section"
+msgstr "Clawyer Banner-Bereich"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:52
+msgid "Breadcrumb Style"
+msgstr "Brotkrümel-Stil"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:62
+msgid "Banner"
+msgstr "Banner"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:81
+msgid "Banner Height (px)"
+msgstr "Banner-Höhe (px)"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:82
+msgid "Height can be differ for transparent header."
+msgstr "Höhe kann bei transparenter Kopfzeile abweichen."
+
+#: ../inc/Api/Customizer/Sections/Banner.php:89
+msgid "Content Alignment"
+msgstr "Inhaltsausrichtung"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:94, ../inc/Api/Customizer/Sections/Footer.php:95, ../inc/Api/Customizer/Sections/Footer.php:114
+msgid "Left"
+msgstr "Links"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:98, ../inc/Api/Customizer/Sections/Footer.php:96, ../inc/Api/Customizer/Sections/Footer.php:115
+msgid "Center"
+msgstr "Mitte"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:102, ../inc/Api/Customizer/Sections/Footer.php:97, ../inc/Api/Customizer/Sections/Footer.php:116
+msgid "Right"
+msgstr "Rechts"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:110, ../inc/Api/Customizer/Sections/Banner.php:112
+msgid "Banner Shape Image"
+msgstr "Banner-Form Bild"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:111
+msgid "Upload Shape Image"
+msgstr "Form-Bild hochladen"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:118
+msgid "Breadcrumb Settings"
+msgstr "Brotkrümel-Einstellungen"
+
+#: ../inc/Api/Customizer/Sections/Banner.php:131
+msgid "Breadcrumb Border"
+msgstr "Brotkrümel-Rahmen"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:28
+msgid "Blog Archive"
+msgstr "Blog-Archiv"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:29
+msgid "Clawyer Blog Section"
+msgstr "Clawyer Blog-Bereich"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:45
+msgid "Blog Style"
+msgstr "Blog-Stil"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:46, ../inc/Api/Customizer/Sections/Blog.php:58, ../inc/Api/Customizer/Sections/ListingArchive.php:54
+msgid "This option works only for large device"
+msgstr "Diese Option funktioniert nur für große Geräte"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:50
+msgid "List"
+msgstr "Liste"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:51
+msgid "Grid"
+msgstr "Raster"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:57, ../inc/Api/Customizer/Sections/ListingArchive.php:53
+msgid "Grid Column"
+msgstr "Rasterspalte"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:62, ../inc/Api/Customizer/Sections/ListingArchive.php:58
+msgid "1 Column"
+msgstr "1 Spalte"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:63, ../inc/Api/Customizer/Sections/ListingArchive.php:59
+msgid "2 Column"
+msgstr "2 Spalten"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:64, ../inc/Api/Customizer/Sections/ListingArchive.php:60
+msgid "3 Column"
+msgstr "3 Spalten"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:65, ../inc/Api/Customizer/Sections/ListingArchive.php:61
+msgid "4 Column"
+msgstr "4 Spalten"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:71
+msgid "Blog Image Size"
+msgstr "Blog-Bildgröße"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:78
+msgid "Content Limit"
+msgstr "Inhaltslimit"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:84
+msgid "Post Meta Settings"
+msgstr "Beitrags-Meta Einstellungen"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:89, ../inc/Api/Customizer/Sections/BlogSingle.php:61
+msgid "Meta Style"
+msgstr "Meta-Stil"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:96
+msgid "Title Above Meta Style"
+msgstr "Titel über Meta Stil"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:103, ../inc/Api/Customizer/Sections/Blog.php:105, ../inc/Api/Customizer/Sections/BlogSingle.php:53
+msgid "Choose Meta"
+msgstr "Meta wählen"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:104, ../inc/Api/Customizer/Sections/BlogSingle.php:52, ../inc/Api/Customizer/Sections/BlogSingle.php:93
+msgid "You can sort meta by drag and drop"
+msgstr "Meta per Drag & Drop sortieren"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:113, ../inc/Api/Customizer/Sections/BlogSingle.php:68, ../inc/Api/Customizer/Sections/ListingSingle.php:68
+msgid "Visibility Section"
+msgstr "Sichtbarkeits-Bereich"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:118, ../inc/Api/Customizer/Sections/BlogSingle.php:73
+msgid "Meta Visibility"
+msgstr "Meta-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:124, ../inc/Api/Customizer/Sections/BlogSingle.php:79
+msgid "Title Above Category Visibility"
+msgstr "Titel über Kategorie Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:129
+msgid "Entry Content Visibility"
+msgstr "Inhalts-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:135
+msgid "Entry Footer Visibility"
+msgstr "Fußzeilen-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:141
+msgid "Pagination Style"
+msgstr "Paginierungsstil"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:145, ../inc/Api/Customizer/Sections/Blog.php:146
+msgid "Choose Pagination"
+msgstr "Seitenumbruch wählen"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:150
+msgid "Pagination Number"
+msgstr "Seitennummer"
+
+#: ../inc/Api/Customizer/Sections/Blog.php:151
+msgid "Pagination Prev/Next"
+msgstr "Vor/Zurück"
+
+#: ../inc/Api/Customizer/Sections/BlogSingle.php:27
+msgid "Single Blog"
+msgstr "Einzelner Blog"
+
+#: ../inc/Api/Customizer/Sections/BlogSingle.php:28
+msgid "Clawyer Blog Single Section"
+msgstr "Clawyer Blog-Einzelbereich"
+
+#: ../inc/Api/Customizer/Sections/BlogSingle.php:44
+msgid "Post View Style"
+msgstr "Beitragsansicht-Stil"
+
+#: ../inc/Api/Customizer/Sections/BlogSingle.php:51
+msgid "Choose Single Meta"
+msgstr "Einzel-Meta wählen"
+
+#: ../inc/Api/Customizer/Sections/BlogSingle.php:84
+msgid "Tag Visibility"
+msgstr "Tag-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/BlogSingle.php:88
+msgid "Share Visibility"
+msgstr "Teilen-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/BlogSingle.php:92
+msgid "Choose Share Media"
+msgstr "Teilen-Medien wählen"
+
+#: ../inc/Api/Customizer/Sections/BlogSingle.php:94
+msgid "Choose Media"
+msgstr "Medien wählen"
+
+#: ../inc/Api/Customizer/Sections/ColorBanner.php:28
+msgid "Banner / Breadcrumb Colors"
+msgstr "Banner / Brotkrümel Farben"
+
+#: ../inc/Api/Customizer/Sections/ColorBanner.php:29
+msgid "Clawyer Banner Color Section"
+msgstr "Clawyer Banner-Farbbereich"
+
+#: ../inc/Api/Customizer/Sections/ColorBanner.php:46
+msgid "Banner Background"
+msgstr "Banner-Hintergrund"
+
+#: ../inc/Api/Customizer/Sections/ColorBanner.php:51
+msgid "Link Color"
+msgstr "Link-Farbe"
+
+#: ../inc/Api/Customizer/Sections/ColorBanner.php:56
+msgid "Link Active Color"
+msgstr "Link aktive Farbe"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:27
+msgid "Footer Colors"
+msgstr "Fußzeilen-Farben"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:28
+msgid "Clawyer Footer Color Section"
+msgstr "Clawyer Fußzeilen-Farbbereich"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:44
+msgid "Main Footer"
+msgstr "Hauptfußzeile"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:48
+msgid "Footer Background"
+msgstr "Fußzeilen-Hintergrund"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:52
+msgid "Footer Text"
+msgstr "Fußzeilentext"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:56
+msgid "Footer Link"
+msgstr "Fußzeilen-Link"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:60
+msgid "Footer Link - Hover"
+msgstr "Fußzeilen-Link - Hover"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:64
+msgid "Widget Title"
+msgstr "Widget-Titel"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:68
+msgid "Input/List/Table Border Color"
+msgstr "Eingabe/Liste/Tabelle Rahmenfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:72
+msgid "Copyright Area"
+msgstr "Copyright-Bereich"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:76
+msgid "Copyright Background"
+msgstr "Copyright-Hintergrund"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:80
+msgid "Copyright Text"
+msgstr "Urheberrechtstext"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:84
+msgid "Copyright Link"
+msgstr "Copyright-Link"
+
+#: ../inc/Api/Customizer/Sections/ColorFooter.php:88
+msgid "Copyright Link - Hover"
+msgstr "Copyright-Link - Hover"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:28
+msgid "Header Colors"
+msgstr "Kopfzeilen-Farben"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:29
+msgid "Clawyer Header Color Section"
+msgstr "Clawyer Kopfzeilen-Farbbereich"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:46
+msgid "Default Menu"
+msgstr "Standardmenü"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:51
+msgid "Menu Color"
+msgstr "Menüfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:56
+msgid "Menu Hover & Active Color"
+msgstr "Menü Hover & Aktive Farbe"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:61
+msgid "Menu Background Color"
+msgstr "Menü-Hintergrundfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:66
+msgid "Transparent Menu"
+msgstr "Transparentes Menü"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:71
+msgid "TR Menu Color"
+msgstr "TR-Menüfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:76
+msgid "TR Menu Hover & Active Color"
+msgstr "TR-Menü Hover & Aktive Farbe"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:81
+msgid "Others Style"
+msgstr "Andere Stile"
+
+#: ../inc/Api/Customizer/Sections/ColorHeader.php:86
+msgid "Menu Border Color"
+msgstr "Menü-Rahmenfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:27
+msgid "Site Colors"
+msgstr "Website-Farben"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:28
+msgid "Clawyer Site Color Section"
+msgstr "Clawyer Website-Farbbereich"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:44
+msgid "Site Ascent Color"
+msgstr "Website-Akzentfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:48
+msgid "Primary Color"
+msgstr "Primärfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:53
+msgid "Primary Dark Color"
+msgstr "Primär Dunkel"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:58
+msgid "Primary Light Color"
+msgstr "Primär Hell"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:67
+msgid "Secondary Color"
+msgstr "Sekundärfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:72
+msgid "Others Color"
+msgstr "Andere Farben"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:77
+msgid "Body Color"
+msgstr "Textfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:82
+msgid "Title Color"
+msgstr "Titelfarbe"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:87
+msgid "Meta Color"
+msgstr "Meta-Farbe"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:92
+msgid "Meta Light"
+msgstr "Meta Hell"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:97
+msgid "Gray # 1"
+msgstr "Grau # 1"
+
+#: ../inc/Api/Customizer/Sections/ColorSite.php:102
+msgid "Gray # 2"
+msgstr "Grau # 2"
+
+#: ../inc/Api/Customizer/Sections/ColorTopbar.php:27
+msgid "Topbar Colors"
+msgstr "Topbar-Farben"
+
+#: ../inc/Api/Customizer/Sections/ColorTopbar.php:28
+msgid "Clawyer Topbar Color Section"
+msgstr "Clawyer Topbar-Farbbereich"
+
+#: ../inc/Api/Customizer/Sections/ColorTopbar.php:45
+msgid "Topbar Color"
+msgstr "Topbar-Farbe"
+
+#: ../inc/Api/Customizer/Sections/ColorTopbar.php:50
+msgid "Hover & Active Color"
+msgstr "Hover & Aktive Farbe"
+
+#: ../inc/Api/Customizer/Sections/ColorTopbar.php:55
+msgid "Topbar Background"
+msgstr "Topbar-Hintergrund"
+
+#: ../inc/Api/Customizer/Sections/Contact.php:27
+msgid "Contact Information"
+msgstr "Kontaktinformationen"
+
+#: ../inc/Api/Customizer/Sections/Contact.php:28
+msgid "Clawyer Contact Address Section"
+msgstr "Clawyer Kontaktadresse Bereich"
+
+#: ../inc/Api/Customizer/Sections/Contact.php:60
+msgid "Enter company address here."
+msgstr "Firmenadresse hier eingeben."
+
+#: ../inc/Api/Customizer/Sections/Error.php:26
+msgid "Error Page"
+msgstr "Fehlerseite"
+
+#: ../inc/Api/Customizer/Sections/Error.php:27
+msgid "Clawyer error section."
+msgstr "Clawyer Fehlerbereich."
+
+#: ../inc/Api/Customizer/Sections/Error.php:43
+msgid "Error Image"
+msgstr "Fehlerbild"
+
+#: ../inc/Api/Customizer/Sections/Error.php:44
+msgid "Upload error image for your site."
+msgstr "Fehlerbild hochladen."
+
+#: ../inc/Api/Customizer/Sections/Error.php:45
+msgid "Error image"
+msgstr "Fehlerbild"
+
+#: ../inc/Api/Customizer/Sections/Error.php:50
+msgid "Error Heading"
+msgstr "Fehler-Überschrift"
+
+#: ../inc/Api/Customizer/Sections/Error.php:51
+msgid "Oops, something went wrong."
+msgstr "Etwas ist schiefgelaufen."
+
+#: ../inc/Api/Customizer/Sections/Error.php:56
+msgid "Error Text"
+msgstr "Fehlertext"
+
+#: ../inc/Api/Customizer/Sections/Error.php:57
+msgid "Sorry! This Page Is Not Available!"
+msgstr "Diese Seite ist nicht verfügbar!"
+
+#: ../inc/Api/Customizer/Sections/Error.php:62
+msgid "Error Button Text"
+msgstr "Fehler-Buttontext"
+
+#: ../inc/Api/Customizer/Sections/Error.php:63
+msgid "Back To Home Page"
+msgstr "Zurück zur Startseite"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:27
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:28
+msgid "Clawyer Footer Section"
+msgstr "Clawyer Fußzeilen-Bereich"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:52
+msgid "Footer Width"
+msgstr "Fußzeilenbreite"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:55, ../inc/Api/Customizer/Sections/Header.php:69
+msgid "Box Width"
+msgstr "Kastenbreite"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:62
+msgid "Footer Max Width (PX)"
+msgstr "Fußzeile Max. Breite (PX)"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:63
+msgid "Enter a number greater than 992."
+msgstr "Zahl größer als 992 eingeben."
+
+#: ../inc/Api/Customizer/Sections/Footer.php:69
+msgid "Sticky Footer"
+msgstr "Fixierte Fußzeile"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:70
+msgid "Show footer at the top when scrolling down"
+msgstr "Fußzeile oben beim Scrollen anzeigen"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:75
+msgid "Footer Copyright Section"
+msgstr "Fußzeilen-Copyright"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:80
+msgid "Footer Copyright Text"
+msgstr "Fußzeilen-Copyrighttext"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:81
+msgid "©Copyright [y] Clawyer by <a href=\"https://radiustheme.com/\">RadiusTheme</a>"
+msgstr ""
+
+#: ../inc/Api/Customizer/Sections/Footer.php:82
+msgid "Add [y] flag anywhere for dynamic year."
+msgstr "Fügen Sie [y] für dynamisches Jahr hinzu."
+
+#: ../inc/Api/Customizer/Sections/Footer.php:86
+msgid "Footer Social"
+msgstr "Fußzeile Social"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:87
+msgid "Show footer social beside at copyright text"
+msgstr "Social neben Copyrighttext anzeigen"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:91
+msgid "Copyright & Socials Alignment"
+msgstr "Copyright & Social Ausrichtung"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:94, ../inc/Api/Customizer/Sections/Footer.php:113
+msgid "Default from style"
+msgstr "Standard vom Stil"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:98
+msgid "Between"
+msgstr "Zwischen"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:99
+msgid "Around"
+msgstr "Umgebung"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:104
+msgid "Footer menu"
+msgstr "Fußzeilen-Menü"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:105
+msgid "Show footer menu above at copyright"
+msgstr "Fußzeilen-Menü über Copyright anzeigen"
+
+#: ../inc/Api/Customizer/Sections/Footer.php:110
+msgid "Footer Menu Alignment"
+msgstr "Fußzeilen-Menü Ausrichtung"
+
+#: ../inc/Api/Customizer/Sections/General.php:26
+msgid "General"
+msgstr "Allgemein"
+
+#: ../inc/Api/Customizer/Sections/General.php:27
+msgid "Clawyer General Section"
+msgstr "Clawyer Allgemein"
+
+#: ../inc/Api/Customizer/Sections/General.php:43
+msgid "Enable SVG Upload"
+msgstr "SVG-Upload aktivieren"
+
+#: ../inc/Api/Customizer/Sections/General.php:49
+msgid "Preloader"
+msgstr "Vorlader"
+
+#: ../inc/Api/Customizer/Sections/General.php:54
+msgid "Preloader Image"
+msgstr "Vorlader-Bild"
+
+#: ../inc/Api/Customizer/Sections/General.php:55
+msgid "Upload preloader animate image for your site."
+msgstr "Vorlader-Bild hochladen."
+
+#: ../inc/Api/Customizer/Sections/General.php:56
+msgid "Upload"
+msgstr "Hochladen"
+
+#: ../inc/Api/Customizer/Sections/General.php:62
+msgid "Back to Top"
+msgstr "Nach oben"
+
+#: ../inc/Api/Customizer/Sections/General.php:67
+msgid "Remove Admin Bar"
+msgstr "Admin-Leiste entfernen"
+
+#: ../inc/Api/Customizer/Sections/General.php:68
+msgid "This option not work for administrator role."
+msgstr "Diese Option funktioniert nicht für Administratoren."
+
+#: ../inc/Api/Customizer/Sections/General.php:73
+msgid "Social Icon Style"
+msgstr "Social-Symbol Stil"
+
+#: ../inc/Api/Customizer/Sections/General.php:76
+msgid "Default Icon"
+msgstr "Standardsymbol"
+
+#: ../inc/Api/Customizer/Sections/General.php:77
+msgid "Square Icon"
+msgstr "Quadratisches Symbol"
+
+#: ../inc/Api/Customizer/Sections/Header.php:28
+msgid "Header Menu"
+msgstr "Kopfzeilen-Menü"
+
+#: ../inc/Api/Customizer/Sections/Header.php:29
+msgid "Clawyer Header Section"
+msgstr "Clawyer Kopfzeilen-Bereich"
+
+#: ../inc/Api/Customizer/Sections/Header.php:54, ../inc/Api/Customizer/Sections/Header.php:57
+msgid "Menu Alignment"
+msgstr "Menü-Ausrichtung"
+
+#: ../inc/Api/Customizer/Sections/Header.php:58
+msgid "Left Alignment"
+msgstr "Linke Ausrichtung"
+
+#: ../inc/Api/Customizer/Sections/Header.php:59
+msgid "Center Alignment"
+msgstr "Zentrierte Ausrichtung"
+
+#: ../inc/Api/Customizer/Sections/Header.php:60
+msgid "Right Alignment"
+msgstr "Rechte Ausrichtung"
+
+#: ../inc/Api/Customizer/Sections/Header.php:66
+msgid "Header Width"
+msgstr "Kopfzeilenbreite"
+
+#: ../inc/Api/Customizer/Sections/Header.php:76
+msgid "Header Max Width (PX)"
+msgstr "Kopfzeile Max. Breite (PX)"
+
+#: ../inc/Api/Customizer/Sections/Header.php:77
+msgid "Enter a number greater than 1440. Remove value for 100%"
+msgstr "Zahl größer als 1440 eingeben. Wert für 100% entfernen"
+
+#: ../inc/Api/Customizer/Sections/Header.php:83
+msgid "Sticky Header"
+msgstr "Fixierte Kopfzeile"
+
+#: ../inc/Api/Customizer/Sections/Header.php:84
+msgid "Show header at the top when scrolling down"
+msgstr "Kopfzeile oben beim Scrollen anzeigen"
+
+#: ../inc/Api/Customizer/Sections/Header.php:89
+msgid "Transparent Header"
+msgstr "Transparente Kopfzeile"
+
+#: ../inc/Api/Customizer/Sections/Header.php:94
+msgid "Transparent color"
+msgstr "Transparente Farbe"
+
+#: ../inc/Api/Customizer/Sections/Header.php:97
+msgid "Light Color"
+msgstr "Helle Farbe"
+
+#: ../inc/Api/Customizer/Sections/Header.php:98
+msgid "Dark Color"
+msgstr "Dunkle Farbe"
+
+#: ../inc/Api/Customizer/Sections/Header.php:105
+msgid "Header Dark Shadow"
+msgstr "Kopfzeile dunkler Schatten"
+
+#: ../inc/Api/Customizer/Sections/Header.php:110
+msgid "Header Border"
+msgstr "Kopfzeilen-Rahmen"
+
+#: ../inc/Api/Customizer/Sections/Header.php:120
+msgid "User Login ?"
+msgstr "Benutzer-Anmeldung?"
+
+#: ../inc/Api/Customizer/Sections/Header.php:126
+msgid "Login/Register Link"
+msgstr "Anmelden/Registrieren Link"
+
+#: ../inc/Api/Customizer/Sections/Header.php:132
+msgid "Search Icon ?"
+msgstr "Suchsymbol?"
+
+#: ../inc/Api/Customizer/Sections/Header.php:138
+msgid "Hamburger Menu"
+msgstr "Hamburger-Menü"
+
+#: ../inc/Api/Customizer/Sections/Header.php:139
+msgid "It will be hide only for desktop."
+msgstr "Nur für Desktop ausgeblendet."
+
+#: ../inc/Api/Customizer/Sections/Header.php:145
+msgid "Icon Separator"
+msgstr "Symbol-Trenner"
+
+#: ../inc/Api/Customizer/Sections/Header.php:155
+msgid "Get Started Button ?"
+msgstr "Loslegen-Button?"
+
+#: ../inc/Api/Customizer/Sections/Header.php:161
+msgid "Button Link"
+msgstr "Button-Link"
+
+#: ../inc/Api/Customizer/Sections/HeaderTopbar.php:28
+msgid "Header Topbar"
+msgstr "Kopfzeile Topbar"
+
+#: ../inc/Api/Customizer/Sections/HeaderTopbar.php:29
+msgid "Clawyer Topbar Section"
+msgstr "Clawyer Topbar-Bereich"
+
+#: ../inc/Api/Customizer/Sections/HeaderTopbar.php:46
+msgid "Topbar Visibility"
+msgstr "Topbar-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/HeaderTopbar.php:53
+msgid "Topbar Style"
+msgstr "Topbar-Stil"
+
+#: ../inc/Api/Customizer/Sections/HeaderTopbar.php:61
+msgid "Topbar Address ?"
+msgstr "Topbar Adresse?"
+
+#: ../inc/Api/Customizer/Sections/HeaderTopbar.php:67
+msgid "Topbar Phone ?"
+msgstr "Topbar Telefon?"
+
+#: ../inc/Api/Customizer/Sections/HeaderTopbar.php:73
+msgid "Topbar Email ?"
+msgstr "Topbar E-Mail?"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:26
+msgid "Modify Static Text"
+msgstr "Statischen Text ändern"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:27
+msgid "You can change all static text of the theme."
+msgstr "Alle statischen Texte des Themes ändern."
+
+#: ../inc/Api/Customizer/Sections/Labels.php:43
+msgid "Header Labels"
+msgstr "Kopfzeilen-Bezeichnungen"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:48
+msgid "Login / Sign Up"
+msgstr "Anmelden / Registrieren"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:49, ../inc/Api/Customizer/Sections/ListingMyAccount.php:27
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:50
+msgid "Context: Login Button"
+msgstr "Anmelden"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:55, ../inc/Api/Customizer/Sections/Labels.php:56
+msgid "Get Started"
+msgstr "Loslegen"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:57
+msgid "Context: Menu Button"
+msgstr "Menü"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:64
+msgid "Context: Topbar icon label"
+msgstr "Topbar-Symbol"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:69
+msgid "Blog Labels"
+msgstr "Blog-Bezeichnungen"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:75
+msgid "Context: Meta Author Prefix"
+msgstr "Von"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:79, ../inc/Api/Customizer/Sections/Labels.php:80
+msgid "Tags:"
+msgstr "Tags:"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:81
+msgid "Context: Single blog footer tags label"
+msgstr "Tags:"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:85, ../inc/Api/Customizer/Sections/Labels.php:86
+msgid "Share:"
+msgstr "Teilen:"
+
+#: ../inc/Api/Customizer/Sections/Labels.php:87
+msgid "Context: Single blog footer share label"
+msgstr "Teilen:"
+
+#: ../inc/Api/Customizer/Sections/LayoutsBlogs.php:30
+msgid "Blog Layout"
+msgstr "Blog-Layout"
+
+#: ../inc/Api/Customizer/Sections/LayoutsError.php:30
+msgid "Error Layout"
+msgstr "Fehler-Layout"
+
+#: ../inc/Api/Customizer/Sections/LayoutsListingArchive.php:30
+msgid "Listing Archive Layout"
+msgstr "Anzeigen-Archiv Layout"
+
+#: ../inc/Api/Customizer/Sections/LayoutsListingSingle.php:31
+msgid "Listing Single Layout"
+msgstr "Einzelanzeige Layout"
+
+#: ../inc/Api/Customizer/Sections/LayoutsPage.php:30
+msgid "Page Layout"
+msgstr "Seiten-Layout"
+
+#: ../inc/Api/Customizer/Sections/LayoutsSingle.php:29
+msgid "Single Layout"
+msgstr "Einzel-Layout"
+
+#: ../inc/Api/Customizer/Sections/LayoutsWooArchive.php:30
+msgid "Woocommerce Archive"
+msgstr "WooCommerce-Archiv"
+
+#: ../inc/Api/Customizer/Sections/LayoutsWooSingle.php:31
+msgid "Woocommerce Single"
+msgstr "WooCommerce-Einzelprodukt"
+
+#: ../inc/Api/Customizer/Sections/ListingArchive.php:28
+msgid "Archive"
+msgstr "Archiv"
+
+#: ../inc/Api/Customizer/Sections/ListingArchive.php:29
+msgid "Clawyer Listing Section"
+msgstr "Clawyer Anzeigen-Bereich"
+
+#: ../inc/Api/Customizer/Sections/ListingMyAccount.php:28
+msgid "Clawyer Listing My Account"
+msgstr "Clawyer Anzeigen Mein Konto"
+
+#: ../inc/Api/Customizer/Sections/ListingMyAccount.php:45
+msgid "Background Video Link"
+msgstr "Hintergrund-Video Link"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:27
+msgid "Single"
+msgstr "Einzel"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:28
+msgid "Clawyer Listing Single Section"
+msgstr "Clawyer Einzelanzeige-Bereich"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:45
+msgid "Select Layout"
+msgstr "Layout wählen"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:56
+msgid "Select Info Type"
+msgstr "Info-Typ wählen"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:57
+msgid "Choose Info Type"
+msgstr "Info-Typ wählen"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:61
+msgid "Listing Information"
+msgstr "Anzeigeninformationen"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:62
+msgid "Listing Owner Information"
+msgstr "Eigentümerinformationen"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:73
+msgid "Video Visibility"
+msgstr "Video-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:75
+msgid "If enable video display in content and videe hide form gallery."
+msgstr "Video wird im Inhalt angezeigt und aus der Galerie ausgeblendet."
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:80
+msgid "Video Title"
+msgstr "Videotitel"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:87
+msgid "Related Listing"
+msgstr "Ähnliche Anzeigen"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:92
+msgid "Related Listing Visibility"
+msgstr "Ähnliche Anzeigen Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:98
+msgid "Type Visibility"
+msgstr "Typ-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:104
+msgid "Author Visibility"
+msgstr "Autor-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:110
+msgid "Location Visibility"
+msgstr "Standort-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:116
+msgid "Category Visibility"
+msgstr "Kategorie-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:122
+msgid "Time Visibility"
+msgstr "Zeit-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:128
+msgid "Views Visibility"
+msgstr "Aufrufe-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:136
+msgid "Address Visibility"
+msgstr "Adress-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:142
+msgid "Phone Visibility"
+msgstr "Telefon-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/ListingSingle.php:148
+msgid "Rating Visibility"
+msgstr "Bewertungs-Sichtbarkeit"
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:36
+msgid "Light Logo"
+msgstr "Helles Logo"
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:37
+msgid "Upload main logo for your site."
+msgstr "Hauptlogo hochladen."
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:38
+msgid "Logo"
+msgstr "Logo"
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:43
+msgid "Dark Logo"
+msgstr "Dunkles Logo"
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:44
+msgid "Upload Secondary logo for your site. It should a dark logo"
+msgstr "Zweitlogo hochladen. Sollte ein dunkles Logo sein"
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:45
+msgid "Second Logo"
+msgstr "Zweites Logo"
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:50, ../inc/Api/Customizer/Sections/SiteIdentity.php:52
+msgid "Mobile Logo"
+msgstr "Mobiles Logo"
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:51
+msgid "Upload, if you need a different logo for mobile device.."
+msgstr "Logo für Mobilgeräte hochladen."
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:57, ../inc/Api/Customizer/Sections/SiteIdentity.php:59
+msgid "Offcanvas Logo"
+msgstr "Offcanvas-Logo"
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:58
+msgid "Upload, if you need a different logo for offcanvas slide menu."
+msgstr "Logo für Offcanvas-Menü hochladen."
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:64
+msgid "Logo Dimension"
+msgstr "Logo-Abmessungen"
+
+#: ../inc/Api/Customizer/Sections/SiteIdentity.php:65
+msgid "Enter the width and height value separate by comma (,). Eg. 180px,45px"
+msgstr "Breite und Höhe durch Komma getrennt. Z.B. 180px,45px"
+
+#: ../inc/Api/Customizer/Sections/Socials.php:29
+msgid "Socials Information"
+msgstr "Social-Informationen"
+
+#: ../inc/Api/Customizer/Sections/Socials.php:30
+msgid "Clawyer Socials Section"
+msgstr "Clawyer Social-Bereich"
+
+#: ../inc/Api/Customizer/Sections/TypographyBody.php:27, ../inc/Api/Customizer/Sections/TypographyBody.php:43
+msgid "Body Typography"
+msgstr "Text-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyBody.php:28
+msgid "Clawyer Body Typography Section"
+msgstr "Clawyer Text-Typografie Bereich"
+
+#: ../inc/Api/Customizer/Sections/TypographyHeading.php:27
+msgid "Heading Typography"
+msgstr "Überschrift-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyHeading.php:28
+msgid "Clawyer Heading Typography Section"
+msgstr "Clawyer Überschriften-Typografie Bereich"
+
+#: ../inc/Api/Customizer/Sections/TypographyHeading.php:46
+msgid "All Headings Typography"
+msgstr "Alle Überschriften-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyHeading.php:59
+msgid "H1 Typography"
+msgstr "H1-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyHeading.php:72
+msgid "H2 Typography"
+msgstr "H2-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyHeading.php:85
+msgid "H3 Typography"
+msgstr "H3-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyHeading.php:98
+msgid "H4 Typography"
+msgstr "H4-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyHeading.php:111
+msgid "H5 Typography"
+msgstr "H5-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyHeading.php:124
+msgid "H6 Typography"
+msgstr "H6-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyMenu.php:27, ../inc/Api/Customizer/Sections/TypographyMenu.php:46
+msgid "Menu Typography"
+msgstr "Menü-Typografie"
+
+#: ../inc/Api/Customizer/Sections/TypographyMenu.php:28
+msgid "Clawyer Menu Typography Section"
+msgstr "Clawyer Menü-Typografie Bereich"
+
+#: ../page-templates/listing-map.php:3
+msgid "Listing Map"
+msgstr "Anzeigenkarte"
+
+#: ../page-templates/rt-icons.php:3
+msgid "RT Icons"
+msgstr "RT Icons"
+
+#: ../page-templates/tpl-example.php:3
+msgid "Example Template"
+msgstr "Beispielvorlage"
+
+#: ../views/content-none.php:18
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: ../views/content-none.php:53
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Wir können nicht finden, wonach Sie suchen. Vielleicht hilft die Suche."
+
+#: ../views/content-none.php:44
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Nichts passt zu Ihren Suchbegriffen. Versuchen Sie andere Begriffe."
+
+#: ../views/content-none.php:30
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../views/content-page.php:23, ../views/content-search.php:47
+msgid "Pages:"
+msgstr "Seiten:"
+
+#. translators: %s: Name of current post.
+#: ../views/content-search.php:34
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../views/custom/single-pagination.php:29
+msgid "Previous Post: "
+msgstr "Vorheriger Beitrag: "
+
+#: ../views/custom/single-pagination.php:45
+msgid "Next Post: "
+msgstr "Nächster Beitrag: "

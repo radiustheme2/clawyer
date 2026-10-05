@@ -1,0 +1,43 @@
+/*---------- Categories ----------*/
+
+.wp-block-categories {
+	gap: 0 !important;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	flex-flow: column;
+	margin-bottom: 0;
+	li {
+		display: flex;
+		padding: 10px 0;
+		position: relative;
+		align-items: center;
+		justify-content: space-between;
+		border-bottom: 1px solid #eeeeee;
+		&:last-child {
+			padding-bottom: 0;
+			border-bottom: none;
+			&:before {
+				display: none;
+			}
+		}
+		a {
+			position: relative;
+		}
+		&:before {
+			left: 0;
+			width: 0;
+			bottom: 0;
+			content: '';
+			height: 1px;
+			position: absolute;
+			background-color: $primary_color;
+			@include transition_default();
+		}
+		&:hover {
+			&:before {
+				width: 100%;
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+/* ========== Listing Single Layout Builder ========== */
+.rtcl-sl-containers {
+	.rtcl-sl-section {
+		padding: 0;
+		border: none;
+		box-shadow: none;
+		background-color: transparent;
+	}
+	.rtcl-sl-section-column {
+		gap: 30px;
+	}
+	.rtcl-sl-element-wrap {
+		width: 100%;
+		display: inline-flex;
+	}
+	.listing-details-header.header-v1 {
+		margin-bottom: 0;
+	}
+	.rtcl-listing-description {
+		margin-bottom: 0;
+	}
+	.rtcl-single-custom-fields {
+		margin-top: 0;
+	}
+	.rtcl-cf-properties .form-section-box:last-child {
+		margin-bottom: 0;
+	}
+	.rtcl-single-listing-details.video-box {
+		width: 100%;
+		margin-bottom: 0 !important;
+	}
+	.rtcl-single-listing-map {
+		width: 100%;
+		margin-top: 0 !important;
+		padding: 23px 30px !important;
+		border-radius: 10px !important;
+		background-color: #ffffff !important;
+		border: 1px solid #E3E3E3 !important;
+	}
+	.rtcl-section-heading-simple {
+		width: 100%;
+		display: block !important;
+	}
+	.rtcl-single-listing-details.review-box {
+		margin-top: 0;
+		.rtrs-review-wrap {
+			margin-top: 0 !important;
+		}
+	}
+}

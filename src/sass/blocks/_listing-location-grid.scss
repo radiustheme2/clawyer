@@ -1,0 +1,98 @@
+/*---------- Listing Location Slider ----------*/
+.rt-listing-locations-grid-wrapper {
+	overflow: hidden;
+}
+
+.location-box-2 {
+	display: flex;
+	column-gap: 15px;
+	align-items: center;
+	border-radius: 15px;
+	background-color: $white_color;
+	padding: 25px 30px 25px 30px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 30px;
+	.location-box-icon {
+		height: 60px;
+		width: 60px;
+		display: -webkit-inline-box;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		background: -webkit-gradient(linear, left top, left bottom, from( #FFFCF6 ), to( #F5E3BF ));
+		background: linear-gradient(180deg, #FFFCF6 0%, #F5E3BF 100%);
+		border: 1px solid #F9E8CA;
+		border-radius: 18px;
+		i {
+			font-size: 20px;
+			color: $primary_color;
+			-webkit-transition: all 0.8s ease;
+			transition: all 0.8s ease;
+		}
+	}
+	.location-box-content {
+		display: flex;
+		flex-flow: column;
+		.listing-location {
+			margin: 0;
+			line-height: 1;
+			display: inline-flex;
+
+			a {
+				font-size: 20px;
+				color: $title_color;
+			}
+		}
+
+		.listing-count {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			column-gap: 5px;
+			transition: all .3s linear;
+			.count {
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				border-radius: 4px;
+			}
+		}
+	}
+	&::before {
+		top: 0;
+		width: 0%;
+		content: "";
+		left: 100%;
+		opacity: 0;
+		z-index: -1;
+		height: 100%;
+		border-radius: 15px;
+		position: absolute;
+		visibility: hidden;
+		transition: all 0.8s ease;
+		background-color: $primary_color;
+		-webkit-transition: all 0.8s ease;
+	}
+	&:hover {
+		.location-box-icon {
+			i {
+				-webkit-transform: scale(1.2);
+				transform: scale(1.2);
+			}
+		}
+		&::before {
+			width: 100%;
+			left: 0;
+			opacity: 1;
+			visibility: visible;
+			-webkit-transition: all 0.8s ease;
+			transition: all 0.8s ease;
+		}
+	}
+}

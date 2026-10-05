@@ -1,0 +1,53 @@
+/*---------- Listing Sortable Search ----------*/
+.rtcl-widget-search-sortable {
+	.rtcl-terms {
+		position: relative;
+	}
+	input[type=text]::placeholder {
+		font-size: 15px;
+	}
+
+	select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-o-appearance: none;
+		appearance: none;
+	}
+}
+.rtcl-widget-search-sortable {
+	.form-group:not(.ws-button) {
+		border-radius: 5px;
+		position: relative;
+		background-color: $white_color;
+	}
+	input[type=password],
+	input[type=number],
+	input[type=text],
+	select {
+		border: none;
+		color: #8C8C8C;
+		background-color: transparent;
+	}
+}
+@media (max-width: #{$sm}) {
+	.rtcl-widget-search-sortable {
+		.rtcl-widget-search-sortable-wrapper {
+			flex-flow: column;
+			align-items: center;
+		}
+	}
+
+	.rtcl-widget-search-sortable-inline .price-field {
+		margin-top: 30px;
+	}
+}
+
+.rtcl-widget-search-sortable :is(select:focus, input:focus, .rtcl-search-input-button:focus ) {
+	border-color: $black_color !important;
+}
+
+.rtcl-widget-search-sortable input[type=text]::placeholder {
+	color: #8D8D8D;
+}
+
+

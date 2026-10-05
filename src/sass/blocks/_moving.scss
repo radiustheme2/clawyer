@@ -1,0 +1,64 @@
+/*---------- Moving ----------*/
+
+.moving-text-wrap {
+	.text-img {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.moving-text-wrap .text-img img {
+	-webkit-animation: rt-circle 25s linear infinite;
+	animation: rt-circle 25s linear infinite;
+}
+
+.moving-text-wrap .icon-box {
+	top: 50%;
+	left: 50%;
+	margin-top: -3px;
+	position: absolute;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.moving-text-wrap .icon-box .icon {
+	height: 78px;
+	width: 78px;
+	border-radius: 100%;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-color: var(--rt-primary-color);
+}
+
+.moving-text-wrap .icon-box .icon i {
+	color: #fff;
+	transform: rotate(-30deg);
+	transition: all 0.4s;
+	font-size: 24px;
+}
+
+.moving-text-wrap:hover .text-img .icon-box .icon i {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+.moving-text-wrap .icon-box .icon i::before {
+	color: var(--color-white);
+}
+
+.moving-text-wrap.style-2 {
+	top: 0;
+	right: 0;
+}
+
+.moving-text-wrap.style-2 .icon-box .icon {
+	background-color: var(--color-body);
+}

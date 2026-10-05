@@ -1,0 +1,388 @@
+/* ========== Listing Single ========== */
+
+.listing-details-page {
+	padding-top: 85px;
+	padding-bottom: 90px;
+	background-color: #f8f8f8;
+	.listing-content {
+		padding-bottom: 30px;
+	}
+	.rtcl-listing-badge-wrap span.badge {
+		padding: 6px 12px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}
+
+.listing-details {
+	border: none;
+	.leaflet-control,
+	.leaflet-left,
+	.leaflet-pane {
+		z-index: 0;
+	}
+	ul.rtcl-cf-properties {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		margin-top: 30px;
+		padding-bottom: 40px;
+		margin-bottom: -20px;
+		border-bottom: 1px solid $border_color;
+		.cfp-label {
+			font-size: 18px;
+			font-weight: 500;
+			color: $title_color;
+			margin-bottom: 10px;
+		}
+	}
+	ul.multi-checkbox-values {
+		margin: 0;
+		padding: 0;
+		row-gap: 10px;
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		@media screen and (max-width: 1199px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media screen and (max-width: 767px) {
+			grid-template-columns: repeat(1, 1fr);
+		}
+
+		li {
+			display: flex;
+			column-gap: 10px;
+		}
+		li i {
+			color: $primary_color;
+		}
+	}
+}
+
+.rtcl-single-listing-details {
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	.rtcl-main-content-wrapper {
+		padding: 0;
+	}
+	.rtcl-listing-description,
+	&.video-box {
+		padding: 23px 30px;
+		border-radius: 10px;
+		margin-bottom: 30px;
+		background-color: #ffffff;
+		border: 1px solid #E3E3E3;
+	}
+	&.video-box,
+	&.map-box {
+		padding-bottom: 30px;
+	}
+	.rtcl-listing-description h3,
+	.desc-title {
+		line-height: 1;
+		font-size: 26px;
+		font-weight: 500;
+	}
+	.ratio-16x9 {
+		position: relative;
+		height: 0;
+		padding-bottom: 56.25%; /* 16:9 */
+		--bs-aspect-ratio: calc(9 / 16 * 100%);
+	}
+	iframe {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border: none;
+		position: absolute;
+		border-radius: 6px;
+	}
+	&.map-box {
+		margin-top: 10px;
+	}
+}
+.rtcl-single-listing-map {
+	padding: 30px;
+	box-shadow: none;
+	margin-top: 0 !important;
+	background-color: #ffffff;
+	border: 1px solid #E3E3E3;
+	border-radius: 10px !important;
+	.rtcl-section-heading-simple h3 {
+		line-height: 1;
+	}
+}
+
+.rtcl .listing-sidebar .business-hour-box .rtclbh-block {
+	box-shadow: none;
+}
+
+.rtcl .listing-sidebar .business-hour-box .title {
+	margin-bottom: 5px;
+}
+
+.rtcl-single-custom-fields {
+	.rtcl-section-heading {
+		display: none;
+	}
+	.rtcl-cf-properties {
+		gap: 0;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		.rtcl-cfp-item {
+			align-items: flex-start;
+			.cfp-label {
+				font-weight: 500;
+			}
+		}
+		.professional-details {
+			.rtcl-cfp-item {
+				.rtcl-field-icon {
+					display: inline-flex;
+					align-items: center;
+				}
+				.rtcl-icon-circle {
+					font-size: 7px;
+				}
+				.cfp-label {
+					font-size: 16px;
+					font-weight: 500;
+					color: $title_color;
+				}
+				.cfp-value {
+					font-size: 16px;
+				}
+			}
+		}
+		.details-profile {
+			.section-columns {
+				.section-column {
+					gap: 30px;
+				}
+			}
+			.rtcl-cfp-repeater {
+				padding: 0;
+				border-radius: 6px;
+				color: $body_color;
+				border: 1px solid #E3E3E3;
+				.rtcl-cfp-label-wrap .cfp-label {
+					margin: 0;
+					padding: 10px 15px;
+				}
+				.rtcl-cfp-repeater-items {
+					gap: 0;
+					.rtcl-cfp-repeater-item {
+						padding: 10px 15px;
+						border-top: 1px solid #E3E3E3;
+					}
+					.rtcl-cfp-repeater-field {
+						display: inline-flex;
+						align-items: flex-start;
+						.cfp-label {
+							padding: 0;
+						}
+						.rtcl-cfp-label-wrap {
+							width: 100px;
+						}
+						.cfp-value {
+							flex: 1;
+						}
+					}
+					[data-name~="awards_recognitions"] {
+						.rtcl-cfp-label-wrap {
+							width: 140px;
+						}
+					}
+				}
+			}
+			[data-name~="awards_recognitions"],
+			[data-name~="education_year"],
+			[data-name~="case_studies"] {
+				.rtcl-cfp-label-wrap,
+				.cfp-value {
+					width: 100%;
+				}
+			}
+			[data-name="awards_recognitions"].rtcl-cfp-repeater > .rtcl-cfp-label-wrap,
+			[data-name="education_year"].rtcl-cfp-repeater > .rtcl-cfp-label-wrap,
+			[data-name="case_studies"].rtcl-cfp-repeater > .rtcl-cfp-label-wrap {
+				background-color: #f4f4f4;
+			}
+
+		}
+		.service-fees {
+			.rtcl-cfp-item {
+				.rtcl-field-icon {
+					display: inline-flex;
+					align-items: center;
+				}
+				.rtcl-icon-circle {
+					font-size: 7px;
+				}
+				.cfp-label {
+					font-size: 16px;
+					font-weight: 500;
+					color: $title_color;
+				}
+				.cfp-value {
+					flex: 1;
+					font-size: 16px;
+				}
+			}
+			.rtcl-cfp-label-wrap {
+				width: 200px;
+			}
+		}
+		.contact-details {
+			.rtcl-cfp-item {
+				.rtcl-field-icon {
+					display: inline-flex;
+					align-items: center;
+				}
+				.rtcl-icon-circle {
+					font-size: 7px;
+				}
+				.cfp-label {
+					font-size: 16px;
+					font-weight: 500;
+					color: $title_color;
+				}
+				.cfp-value {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+span.delimiter {
+	margin-right: 5px;
+}
+
+.rtcl .rtcl-Reviews.rtcl #respond .comment-reply-title {
+	font-size: 16px;
+}
+
+.rtcl-listings-sc-wrapper.has-map .rtcl-search-map .rtcl-map-view {
+	height: 100%;
+	z-index: 1;
+}
+
+/* === Custom Fields Styles === */
+.rtcl-single-custom-fields {
+	.section-columns {
+		display: flex;
+		gap: 30px;
+		.section-column {
+			flex: 1;
+			gap: 15px;
+			min-width: 0;
+			display: flex;
+			flex-flow: column;
+		}
+	}
+	/* Section 4 columns */
+	.section-columns-4 .section-column {
+		width: calc(100% / 4 - 13.33px);
+	}
+	/* Section 3 columns */
+	.section-columns-3 .section-column {
+		width: calc(100% / 3 - 13.33px);
+	}
+	/* Section 2 columns */
+	.section-columns-2 .section-column {
+		width: calc(100% / 2 - 13.33px);
+	}
+	/* Responsive */
+	@media (max-width: 767px) {
+		.section-columns {
+			flex-direction: column;
+		}
+	}
+}
+.rtcl-cf-properties {
+	.form-section-box {
+		border-radius: 10px;
+		margin-bottom: 30px;
+		padding: 25px 30px 30px;
+		background-color: #ffffff;
+		border: 1px solid #E3E3E3;
+		.cf-section-title {
+			line-height: 1;
+			font-size: 26px;
+			font-weight: 500;
+			margin-bottom: 20px;
+		}
+	}
+	[data-name="cost-fields"] .rtcl-cfp-repeater-items {
+		gap: 0;
+		.rtcl-cfp-repeater-item {
+			padding: 10px 20px;
+			flex-direction: row;
+			display: inline-flex;
+			justify-content: space-between;
+			&:nth-child(odd) {
+				background-color: #F8F8F8;
+			}
+		}
+	}
+
+	.rtcl-cfp-repeater>.rtcl-cfp-label-wrap {
+		justify-content: flex-start;
+		.cfp-label {
+			font-size: 22px;
+			font-weight: 500;
+			line-height: 26px;
+			margin-bottom: 10px;
+			color: var(--rt-title-color);
+		}
+	}
+
+	.rtcl-cfp-repeater-items {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		.rtcl-field-icon {
+			display: inline-flex;
+			align-items: center;
+			margin-top: 3px;
+			.rtcl-icon-circle {
+				font-size: 7px;
+				display: inline-flex;
+				&:before {
+					margin-top: -2px;
+				}
+			}
+		}
+	}
+	[data-name="areas-of-expertise"] .rtcl-cfp-repeater-items {
+		column-gap: 30px;
+		flex-direction: unset;
+		@media screen and (max-width: 767px) {
+			flex-direction: column;
+		}
+	}
+}
+
+.rtcl-cfp-repeater-items {
+	.rtcl-cfp-repeater-item {
+		padding: 10px 15px;
+		border-top: 1px solid #E3E3E3;
+		[data-name~="awards_recognitions"]:first-child,
+		[data-name~="case_studies"]:first-child {
+			.cfp-value {
+				font-size: 18px;
+				font-weight: 500;
+				color: $title_color;
+			}
+		}
+	}
+}
+
+.rtcl.el-single-addon.business-hours .rtclbh-block {
+	padding: 0;
+	border: none;
+}

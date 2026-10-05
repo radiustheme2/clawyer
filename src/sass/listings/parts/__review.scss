@@ -1,0 +1,56 @@
+/*---------- Listing Review ----------*/
+
+/* = Review Form = */
+.rtrs-review-form .rtrs-multimedia-upload .rtrs-upload-box {
+  padding: 10px 10px;
+  border: 1px solid #EDEDED;
+  background-color: #F5F6F7;
+}
+.rtrs-review-wrap .rtrs-review-form .rtrs-form-group .rtrs-submit-btn {
+  margin-bottom: -40px;
+  background-color: $primary_color;
+  border: 1px solid $primary_color;
+}
+.rtrs-review-wrap .rtrs-review-form .rtrs-form-group .rtrs-submit-btn:hover {
+  color: $primary_color;
+  background-color: transparent !important;
+  border-color: $primary_color;
+}
+
+/* = Product Rating = */
+.product-rating {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.product-rating .item-icon {
+  z-index: 0;
+  padding: 0 8px;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: #fff;
+  position: relative;
+  margin-right: 10px;
+  background-color: $primary_color;
+}
+
+.rtcl .rtcl-listing-meta-data li .product-rating .item-icon i,
+.product-rating .item-icon i {
+  font-size: 12px;
+}
+
+.product-rating .item-icon:after {
+  top: 0;
+  right: -5px;
+  content: '';
+  z-index: -1;
+  position: absolute;
+  border-top: solid 12px $primary_color;
+  border-left: solid 10px transparent;
+  border-right: solid 10px transparent;
+  i:before {
+    color: $white_color;
+  }
+}

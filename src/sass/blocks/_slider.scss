@@ -1,0 +1,39 @@
+/*---------- RT Slider ----------*/
+.swiper-navigation .swiper-button {
+	background-color: $primary_color;
+	&:hover {
+		color: $white_color;
+		background-color: $primary_color;
+	}
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+	content: "\e801";
+	font-size: 16px;
+	font-family: fontello;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after  {
+	content: "\e800";
+	font-size: 16px;
+	font-family: fontello;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev,
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+	opacity: 0;
+	width: 50px;
+	height: 50px;
+	color: $white_color;
+	visibility: hidden;
+	border-radius: 100%;
+	@include transition_default();
+	background-color: $primary_color;
+	&:hover {
+		color: $white_color;
+		background-color: $primary_color;
+	}
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+	right: -70px;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+	left: -70px;
+}

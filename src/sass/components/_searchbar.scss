@@ -1,0 +1,44 @@
+/*---------- Search Bar ----------*/
+
+.clawyer-search-form .search-box {
+	position: relative;
+	//border: 1px solid $gray40;
+	overflow: hidden;
+	input {
+		height: 55px;
+		width: 100%;
+		padding: 0 15px;
+		border-radius: 5px;
+		border: 1px solid #dcdcdc;
+		background-color: transparent;
+		&:focus {
+			box-shadow: none;
+		}
+		&::placeholder {
+			color: #8D8D8D;
+		}
+	}
+	button {
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+		border: none;
+		padding: 0 18px;
+		border-radius: 0;
+		color: $title_color;
+		border-top-right-radius: 5px;
+		background-color: transparent;
+		border-bottom-right-radius: 5px;
+
+		svg {
+			fill: $title_color;
+			width: 22px;
+			height: 22px;
+			margin-top: 1.5px;
+		}
+		.btn-label {
+			display: none;
+		}
+	}
+}

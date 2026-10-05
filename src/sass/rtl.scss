@@ -1,0 +1,40 @@
+.rtl {
+	.newsletter-form-1 .fluentform .ff-el-group .ff-btn-submit img,
+	.prev.page-numbers,
+	.next.page-numbers {
+		transform: rotate(180deg);
+	}
+	.rtrs-review-wrap .rtrs-review-box .rtrs-each-review {
+		gap: 15px;
+	}
+
+	.swiper-rtl .swiper-button-next {
+		left: 0;
+		right: auto;
+	}
+	.swiper-rtl .swiper-button-prev {
+		right: 0;
+		left: auto;
+	}
+
+	button.button-style-2 i, a.button-style-2 i {
+		transform: rotate(180deg);
+	}
+
+	button.button-style-2:hover i, a.button-style-2:hover i {
+		transform: rotate(180deg) translate(5px, 0);
+	}
+	.rtcl-ajax-filter-item .rtcl-filter-checkbox-item label {
+		gap: 5px;
+	}
+	.rtcl .star-rating span {
+		text-align: left;
+	}
+
+	.rtrs-summary .rtrs-progress-wrap progress[value] {
+		height: auto;
+	}
+	.rtrs-summary .rtrs-progress-wrap .rtrs-progress {
+		column-gap: 5px;
+	}
+}

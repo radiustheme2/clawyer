@@ -1,0 +1,26 @@
+/*---------- Booking ----------*/
+.single-rtcl_listing .rtcl-listing-booking-wrap {
+	margin-top: 0 !important;
+}
+.rtcl-booking-confirmation-wrapper {
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.listing-sidebar {
+	.rtrb-cl-book-now-wrapper {
+		margin-top: 0 !important;
+		margin-bottom: 30px !important;
+	}
+}
+
+.rtrb-cl-book-now {
+	font-weight: 500 !important;
+	padding: 14px 24px !important;
+	background-color: $primary_color !important;
+	border: 1px solid $primary_color !important;
+	&:hover {
+		color: $primary_color;
+		background-color: $white_color !important;
+	}
+}

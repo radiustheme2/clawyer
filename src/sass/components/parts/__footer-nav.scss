@@ -1,0 +1,28 @@
+/*---------- Footer Menu Wrapper ----------*/
+.site-footer {
+	.footer-menu-wrapper {
+		border-top: 1px solid $gray20;
+
+		.clawyer-footer-1 & {
+			.align-default {
+				justify-content: center;
+			}
+		}
+	}
+
+	.clawyer-navigation ul > li > ul.depth_0 {
+		bottom: 100%;
+		top: auto;
+	}
+
+	.clawyer-navigation ul li ul li ul {
+		left: 100%;
+		top: auto;
+		bottom: 0;
+	}
+
+	.clawyer-navigation ul > li > ul.dropdown-menu {
+		top: 100% !important;
+		bottom: auto !important;
+	}
+}

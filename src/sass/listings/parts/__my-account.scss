@@ -1,0 +1,196 @@
+/*---------- My Account ----------*/
+
+/* = Login/Registration = */
+.rtcl-account.no-trheader.no-banner .site-content {
+	padding-top: 0;
+	padding-bottom: 0;
+
+}
+
+.rtcl-account {
+	.page-template-content-wrapper {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	&.logged-in {
+		.page-template-content-wrapper {
+			padding-top: 120px;
+			padding-bottom: 120px;
+		}
+	}
+
+	.rtcl-registration-form-wrap,
+	.rtcl-login-form-wrap {
+		width: auto;
+		max-width: 550px;
+		margin: 0 auto;
+		min-width: 520px;
+		@media screen and (max-width: 767px) {
+			min-width: 100%;
+		}
+	}
+	.my-account-login-registration-wrapper {
+		.btn {
+			font-size: 18px;
+			padding: 15px 30px;
+		}
+	}
+}
+
+.rtcl .rtcl-forgot-password>span {
+	color: #9d9d9d;
+	margin: 0 6px 0 6px;
+}
+.my-account-login-registration-wrapper {
+	z-index: 0;
+	width: auto;
+	height: 100%;
+	padding: 0 30px;
+	position: relative;
+	align-items: center;
+	display: inline-flex;
+	justify-content: center;
+	video {
+		top: 0;
+		left: 0;
+		z-index: -1;
+		min-width: 100%;
+		min-height: 100%;
+		position: absolute;
+	}
+	#rtcl-user-login-wrapper {
+		width: auto;
+		padding: 30px 40px;
+		border-radius: 20px;
+	}
+	.rtcl-user-registration-wrapper.have-registration-form,
+	#rtcl-user-login-wrapper.have-registration-form {
+		width: auto;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-bottom: 55px;
+	}
+
+}
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-registration-form-wrap .rtcl-field-label,
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .rtcl-field-label {
+	font-size: 16px;
+	font-weight: 600;
+	color: $title_color;
+}
+.rtcl-account #rtcl-user-login-wrapper h2, .rtcl-account .rtcl-user-registration-wrapper h2 {
+	font-size: 32px;
+	margin: 0 0 20px;
+}
+.my-account-login-registration-wrapper .rtcl-form-control {
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid #D2D2D2;
+	margin-bottom: 23px;
+}
+
+.rtcl-account .rtcl-user-registration-wrapper {
+	//margin-bottom: 50px;
+	border-radius: 20px;
+	//margin-top: 200px;
+}
+
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .rtcl-form-group,
+.rtcl-account #rtcl-user-login-wrapper .rtcl-registration-form-wrap .rtcl-form-group,
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-login-form-wrap .rtcl-form-group,
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-registration-form-wrap .rtcl-form-group {
+	margin-bottom: 0;
+}
+
+.rtcl-form-group.rtcl-form-group-no-margin-bottom .rtcl-forgot-password {
+	margin-top: 15px;
+}
+
+@media screen and (max-width: 767px) {
+	.rtcl-account .rtcl-registration-form-wrap .name-row {
+		gap: 0;
+	}
+}
+
+body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul {
+	gap: 12px;
+	display: flex;
+	flex-flow: column;
+	li {
+		border: 0;
+		border-radius: 6px;
+		a {
+			padding: 18px 25px 18px 55px !important;
+			&:after {
+				display: none;
+			}
+			&:before {
+				left: 20px !important;
+				transition: all .3s;
+				background-color: var(--rtcl-primary-color);
+			}
+		}
+
+		&.is-active,
+		&:hover {
+			color: $white_color;
+			background-color: $primary_color;
+			a {
+				&:before {
+					background-color: $white_color;
+				}
+			}
+		}
+
+		&.rtcl-MyAccount-navigation-link.rtcl-MyAccount-navigation-link--add-listing {
+			margin-top: 0;
+			border: none;
+			border-radius: 6px;
+			//transition: all 520ms ease;
+
+			a {
+				line-height: 1;
+				border-radius: 0;
+				//transition: all 520ms ease;
+				&:before {
+					mask-size: 18px 18px;
+					width: 18px;
+					height: 18px;
+				}
+			}
+
+			&:hover {
+				background-color: $body_color;
+			}
+		}
+	}
+
+}
+
+body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-user-info .rtcl-user-content {
+	flex: unset;
+	max-width: unset;
+	display: inline-flex;
+}
+
+/* = Dashboard = */
+.rtcl-MyAccount-wrap {
+	.rtcl-MyAccount-navigation {
+		background-color: #1d2327;
+		flex: 0 0 300px;
+		max-width: 300px;
+		flex-flow: column;
+	}
+}
+
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-payment-history-wrap,
+.rtcl-chat-content-wrapper {
+	padding: 30px;
+	border-radius: 6px;
+	background-color: $white_color;
+}
+
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-user-info .rtcl-user-content {
+	flex: 100%;
+	max-width: 100%;
+}
