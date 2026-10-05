@@ -6811,6 +6811,103 @@ ul.elementor-icon-list-items {
   padding-right: 5px;
 }
 
+.rtcl-widget-ajax-filter-class {
+  overflow: visible;
+}
+.rtcl-widget-ajax-filter-class .rtcl-widget-heading h3 {
+  gap: 0;
+  padding: 0;
+  display: block;
+  font-size: 20px;
+  line-height: 1;
+  border-bottom: none;
+  letter-spacing: normal;
+}
+.rtcl-widget-ajax-filter-class .rtcl-widget-heading h3:before {
+  content: none;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item {
+  font-size: 16px;
+  border-bottom: none;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-filter-title-wrap {
+  padding: 0;
+  color: #222222;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-filter-title-wrap .rtcl-icon {
+  border: none;
+  border-radius: 0;
+  color: var(--rt-title-color);
+  background-color: transparent;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-filter-title-wrap .rtcl-reset {
+  opacity: 1;
+  color: var(--rt-title-color) !important;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-filter-content {
+  padding: 0;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-ajax-filter-data-item {
+  gap: 14px;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-ajax-filter-diiWrap {
+  gap: 10px;
+  min-height: 0;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-filter-checkbox-item label {
+  padding: 2px;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-filter-checkbox-item label:before {
+  border-radius: 4px;
+  margin: 0 0 0 8px;
+  border: 1px solid #ced4da;
+  background-color: transparent;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-filter-checkbox-item label:after {
+  top: 4px;
+  right: 8px;
+  width: 6px;
+  height: 12px;
+  margin-top: 0;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-filter-checkbox-item .rtcl-filter-count {
+  color: inherit;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-ajax-filter-text .rtcl-filter-text-field {
+  font-size: 16px;
+  border-radius: 6px;
+  color: #686872;
+  padding: 8px 36px 8px 35px;
+  border-color: #dde1ed;
+  background-color: #f8f9fb;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-more-less-btn {
+  padding-top: 0;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 400;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-more-less-btn .text {
+  gap: 5px;
+  opacity: 1;
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-more-less-btn .text .rtcl-icon {
+  font-size: 16px;
+  color: var(--rt-primary-color);
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-more-less-btn .more-text .rtcl-icon:before {
+  content: "\e817";
+}
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-ajax-filter-item .rtcl-more-less-btn .less-text .rtcl-icon:before {
+  content: "\e819";
+}
+
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_age .rtcl-ajax-filter-data,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_gender .rtcl-ajax-filter-data,
 .rtcl-filter_cf_age .rtcl-ajax-filter-data,
 .rtcl-filter_cf_gender .rtcl-ajax-filter-data {
   gap: 8px;
@@ -6818,15 +6915,21 @@ ul.elementor-icon-list-items {
   display: inline-flex;
   flex-direction: row;
 }
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox,
 .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox,
 .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox {
   display: none;
 }
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label,
 .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label,
 .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label {
+  flex: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  line-height: 1.2;
   padding: 5px 14px;
   border-radius: 30px;
   border: 1px solid #ced4da;
@@ -6838,16 +6941,24 @@ ul.elementor-icon-list-items {
   margin: 0;
   transition: all 320ms ease;
 }
-.rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:before, .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:after,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:before, .rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:after,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:before,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:after,
+.rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:before,
+.rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:after,
 .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:before,
 .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:after {
   display: none;
 }
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:hover,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:hover,
 .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:hover,
 .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox-label:hover {
   border-color: var(--rt-primary-color);
   color: var(--rt-primary-color);
 }
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox:checked + .rtcl-filter-checkbox-label,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-wrap .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox:checked + .rtcl-filter-checkbox-label,
 .rtcl-filter_cf_age .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox:checked + .rtcl-filter-checkbox-label,
 .rtcl-filter_cf_gender .rtcl-ajax-filter-diiWrap .rtcl-filter-checkbox:checked + .rtcl-filter-checkbox-label {
   background-color: var(--rt-primary-color);
@@ -13499,10 +13610,15 @@ xpush
 }
 .rtcl-el-listing-location-box.location-box-style-3 .rtin-content .rtin-counter {
   margin: 0;
+  gap: 0;
   padding: 0 10px;
   font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
   cursor: pointer;
-  border-top-left-radius: 5px;
+  border-radius: 5px 0 0 0;
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
   color: #FFFFFF;
   display: inline-flex;
   transition: all 320ms ease;
@@ -14083,7 +14199,7 @@ xpush
 .rtcl .rtcl-grid-view .listing-item .listing-thumb a.rtcl-media img {
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  transition: all 320ms ease;
+  transition: all 0.5s;
 }
 .rtcl-related-listings .listing-item .listing-thumb a.rtcl-media.list-thumbnail,
 .rtcl .rtcl-grid-view .listing-item .listing-thumb a.rtcl-media.list-thumbnail {
@@ -14096,7 +14212,7 @@ xpush
 }
 .rtcl-related-listings .listing-item:hover .listing-thumb img,
 .rtcl .rtcl-grid-view .listing-item:hover .listing-thumb img {
-  transform: scale(1.2);
+  transform: scale(1.06);
 }
 .rtcl-related-listings .listing-item .item-content,
 .rtcl .rtcl-grid-view .listing-item .item-content {
@@ -14691,7 +14807,7 @@ span.delimiter {
 }
 
 .rtcl-listings-sc-wrapper.has-map .rtcl-search-map .rtcl-map-view {
-  height: 100%;
+  height: calc(100vh - 40px);
   z-index: 1;
 }
 
@@ -16440,49 +16556,77 @@ span.delimiter {
   }
 }
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul {
-  gap: 12px;
+  gap: 2px;
   display: flex;
   flex-flow: column;
 }
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li {
+  margin: 0;
   border: 0;
-  border-radius: 6px;
+  border-radius: 8px;
+  transition: all 320ms ease;
 }
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li a {
-  padding: 18px 55px 18px 25px !important;
+  color: var(--rt-title-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 44px 10px 14px !important;
 }
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li a:after {
   display: none;
 }
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li a:before {
-  right: 20px !important;
+  width: 18px;
+  height: 18px;
+  right: 14px !important;
   transition: all 0.3s;
-  background-color: var(--rtcl-primary-color);
+  background-color: #6b7280;
 }
-body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.is-active, body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li:hover {
-  color: #FFFFFF;
+body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li:hover {
+  background-color: #f5f5f4;
+}
+body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li:hover a:before {
   background-color: var(--rt-primary-color);
 }
-body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.is-active a:before, body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li:hover a:before {
+body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.is-active {
+  background-color: var(--rt-primary-color);
+}
+body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.is-active a {
+  color: #FFFFFF;
+}
+body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.is-active a:before {
   background-color: #FFFFFF;
 }
+body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link--logout {
+  margin-top: 6px;
+  position: relative;
+}
+body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link--logout:before {
+  top: -4px;
+  right: 0;
+  left: 0;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: #e4e4e4;
+}
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link.rtcl-MyAccount-navigation-link--add-listing {
-  margin-top: 0;
+  margin-top: 8px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
+  background-color: var(--rt-primary-color);
 }
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link.rtcl-MyAccount-navigation-link--add-listing a {
-  line-height: 1;
+  color: #FFFFFF;
+  font-weight: 600;
   border-radius: 0;
 }
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link.rtcl-MyAccount-navigation-link--add-listing a:before {
-  -webkit-mask-size: 18px 18px;
-          mask-size: 18px 18px;
-  width: 18px;
-  height: 18px;
+  background-color: #FFFFFF;
 }
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link.rtcl-MyAccount-navigation-link--add-listing:hover {
-  background-color: var(--rt-body-color);
+  background-color: var(--rt-title-color);
 }
 
 body.rtcl-account:not(.page-template-rtcl-canvas_template) .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-user-info .rtcl-user-content {

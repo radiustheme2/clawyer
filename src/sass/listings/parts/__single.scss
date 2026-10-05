@@ -267,7 +267,7 @@ span.delimiter {
 }
 
 .rtcl-listings-sc-wrapper.has-map .rtcl-search-map .rtcl-map-view {
-	height: 100%;
+	height: calc(100vh - 40px);
 	z-index: 1;
 }
 

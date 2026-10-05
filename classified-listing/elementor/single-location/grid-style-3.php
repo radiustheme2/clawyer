@@ -17,10 +17,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-$count_text = $settings['count_text'] ? $settings['count_text'] : 'Listings';
+// Custom text after count (new toolkit setting, falls back to the legacy one).
+$count_text = '';
+if ( ! empty( $settings['display_text_after_count'] ) ) {
+	$count_text = $settings['display_text_after_count'];
+} elseif ( ! empty( $settings['count_text'] ) ) {
+	$count_text = $settings['count_text'];
+}
 
-/* translators: %s: Number of listings. */
-$count_html = sprintf( _nx( '%s listing', '%s listings', $count, 'Number of Listing Services', 'clawyer' ), number_format_i18n( $count ) );
+if ( $count_text ) {
+	$count_html = number_format_i18n( $count ) . ' ' . $count_text;
+} else {
+	/* translators: %s: Number of listings. */
+	$count_html = sprintf( _nx( '%s listing', '%s listings', $count, 'Number of Listing Services', 'clawyer' ), number_format_i18n( $count ) );
+}
 
 $link_start   = $settings['enable_link'] ? '<a href="' . $permalink . '">' : '';
 $link_end     = $settings['enable_link'] ? '</a>' : '';
@@ -40,7 +50,7 @@ $class       .= ' location-box-' . $location_box;
 	<div class="rtin-content">
 		<?php if ( $settings['display_count'] ) : ?>
             <div class="rtin-counter">
-				<?php echo esc_html( $count_html ); ?><?php echo esc_html( $count_text ); ?>
+				<?php echo esc_html( $count_html ); ?>
             </div>
 		<?php endif; ?>
 		<h3 class="rtin-title">

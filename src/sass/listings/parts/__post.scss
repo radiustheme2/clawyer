@@ -273,7 +273,7 @@
 			img {
 				border-top-left-radius: 8px;
 				border-top-right-radius: 8px;
-				@include transition_default();
+				transition: all 0.5s;
 			}
 			&.list-thumbnail {
 				display: none;
@@ -285,7 +285,7 @@
 		}
 		&:hover {
 			.listing-thumb img {
-				transform: scale(1.2);
+				transform: scale(1.06);
 			}
 		}
 		.item-content {
